@@ -1,3 +1,5 @@
+import React from 'react';
+import  ReactDOM  from 'react-dom';
 const heading=React.createElement(
     "div",
     {id:"parent"},
@@ -11,5 +13,5 @@ const heading=React.createElement(
     )
 );
 
-const root=ReactDOM.createRoot(document.getElementById("root"));
+const root=ReactDOM.createRoot(document.getElementById("header"));
 root.render(heading);
