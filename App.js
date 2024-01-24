@@ -1,17 +1,8 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom';
-const heading=React.createElement(
-    "div",
-    {id:"parent"},
-   React.createElement(
-    "div",
-    {id:"child"},
-    React.createElement(
-        "h1",
-        {},
-        "I am inside Div")
-    )
-);
 
-const root=ReactDOM.createRoot(document.getElementById("header"));
-root.render(heading);
+const jsxHeading=<h1 id="heading" tabIndex={5}> Hello using JSX🚀</h1>
+    
+
+const root=ReactDOM.createRoot(document.getElementById('root'));
+root.render(jsxHeading);
