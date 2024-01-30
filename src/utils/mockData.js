@@ -1,1347 +1,2877 @@
-export const dataList = [
-    {
-      id: "card.store:store:378992",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
+export const stores = [
+  {
+      "storeUuid": "a94a94cc-a88e-4f0e-95ff-866c8bd6b5f2",
+      "title": {
+          "text": "Chick-fil-A"
       },
-      name: null,
-      text: {
-        title: "Jersey Mike's Subs",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "9 min · Ready in 16 min",
-        descriptionTextAttributes: null,
-        custom: [
+      "meta": [
           {
-            key: "delivery_fee_string",
-            value: "$0.99 delivery fee",
-            __typename: "FacetV2TextTuple",
-          },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/33c0e2ce-c3c4-4640-8f35-159a44472df6-retina-large-jpeg",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [
-          {
-            key: "modality_icon",
-            value: {
-              uri: null,
-              placeholder: null,
-              local: "driving-icon",
-              style: "UNSPECIFIED",
-              logging: null,
-              events: null,
-              __typename: "FacetV2Image",
-            },
-            __typename: "FacetV2ImageTuple",
-          },
-        ],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"store/378992/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6IiIsInZlcnRpY2FsX2lkIjpudWxsLCJ2ZXJ0aWNhbF9uYW1lIjoiIn0sInN0b3JlX3ByaW1hcnlfdmVydGljYWxfaWRzIjpbMV0sImlzX3NpYmxpbmciOmZhbHNlLCJmb3JjZV9zdG9yZV9hdmFpbGFiaWxpdHlfdjIiOmZhbHNlLCJidW5kbGVfZ2xvYmFsX3NlYXJjaF9jb250ZXh0IjpudWxsfQ==&pickup=true"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.73428201675415,"display_num_ratings":"(6,000+)"},"savelists":[],"store_id":"378992"}',
-      logging:
-        '{"asap_available":true,"asap_time":30,"badges":"","business_id":"1431","business_vertical_id":"0","card_position":6,"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_name":"Top pickup restaurants nearby","container_store_list_size":12,"delivery_fee_amount":99,"delivery_fee_str":"$0.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/33c0e2ce-c3c4-4640-8f35-159a44472df6-retina-large-jpeg","express_eta_shown":false,"final_delivery_fee_line_str":"$0.99 delivery fee","fulfillment_type":"PICKUP","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"modality_icon":"DRIVING_ICON","mor_breakdown_scores":"[]","next_close_time":"2024-01-27T01:30:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"6044","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":1,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":0.40622761845588684,"star_rating":"4.734282","store_display_asap_time":"30 min","store_distance_in_miles":2.96570562852029,"store_id":"378992","store_latitude":42.2350768,"store_longitude":-83.2687166,"store_name":"Jersey Mike\'s Subs","store_prediction_score":0.10405176915827141,"store_predictor_model_ids":["store_ranking_v1_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"1","travel_time_in_minutes":"9","vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:23004030",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Pizza Hut",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "9 min · Ready in 19 min",
-        descriptionTextAttributes: null,
-        custom: [
-          {
-            key: "delivery_fee_string",
-            value: "$​0 delivery fee",
-            __typename: "FacetV2TextTuple",
-          },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2/f89e4829-15d8-4f77-953d-32d65e12eda0-retina-large.JPG",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [
-          {
-            key: "modality_icon",
-            value: {
-              uri: null,
-              placeholder: null,
-              local: "driving-icon",
-              style: "UNSPECIFIED",
-              logging: null,
-              events: null,
-              __typename: "FacetV2Image",
-            },
-            __typename: "FacetV2ImageTuple",
-          },
-        ],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"store/23004030/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6IiIsInZlcnRpY2FsX2lkIjpudWxsLCJ2ZXJ0aWNhbF9uYW1lIjoiIn0sInN0b3JlX3ByaW1hcnlfdmVydGljYWxfaWRzIjpbMSwxOTZdLCJpc19zaWJsaW5nIjpmYWxzZSwiZm9yY2Vfc3RvcmVfYXZhaWxhYmlsaXR5X3YyIjpmYWxzZSwiYnVuZGxlX2dsb2JhbF9zZWFyY2hfY29udGV4dCI6bnVsbH0=&pickup=true"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[{"background_color":"00838A","dls_tag_size":"small","dls_tag_style":"highlight","dls_tag_type":"emphasis","dls_text_style":"","leading_icon":"deals/fill","placement":"hero_overlay","text":"$5 off orders of $25+ at Pizza Hut®","trailing_icon":"none","type":"offer"}],"is_currently_available":true,"rating":{"average_rating":4.513812065124512,"display_num_ratings":"(900+)"},"savelists":[],"store_id":"23004030"}',
-      logging:
-        '{"asap_available":true,"asap_time":40,"badges":"text:$5 off orders of $25+ at Pizza Hut®,type:offer;","business_id":"351380","business_vertical_id":"0","card_position":7,"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_name":"Top pickup restaurants nearby","container_store_list_size":12,"delivery_fee_amount":0,"delivery_fee_str":"$0 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2/f89e4829-15d8-4f77-953d-32d65e12eda0-retina-large.JPG","express_eta_shown":false,"final_delivery_fee_line_str":"$​0 delivery fee","fulfillment_type":"PICKUP","has_offer_badges":true,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"modality_icon":"DRIVING_ICON","mor_breakdown_scores":"[]","next_close_time":"2024-01-27T04:39:59Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"905","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.513812","store_display_asap_time":"40 min","store_distance_in_miles":2.976084862967887,"store_id":"23004030","store_latitude":42.2322771,"store_longitude":-83.26845469999999,"store_name":"Pizza Hut","store_prediction_score":0.133523628115654,"store_predictor_model_ids":["store_ranking_v1_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"1","travel_time_in_minutes":"9","vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:238406",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Malek Al Kabob",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "9 min · Ready in 17 min",
-        descriptionTextAttributes: null,
-        custom: [
-          {
-            key: "delivery_fee_string",
-            value: "$1.49 delivery fee",
-            __typename: "FacetV2TextTuple",
-          },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/ab7a08d8-711c-4432-803c-a709f0f75b2d.jpg",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [
-          {
-            key: "modality_icon",
-            value: {
-              uri: null,
-              placeholder: null,
-              local: "driving-icon",
-              style: "UNSPECIFIED",
-              logging: null,
-              events: null,
-              __typename: "FacetV2Image",
-            },
-            __typename: "FacetV2ImageTuple",
-          },
-        ],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"store/238406/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6IiIsInZlcnRpY2FsX2lkIjpudWxsLCJ2ZXJ0aWNhbF9uYW1lIjoiIn0sInN0b3JlX3ByaW1hcnlfdmVydGljYWxfaWRzIjpbMV0sImlzX3NpYmxpbmciOmZhbHNlLCJmb3JjZV9zdG9yZV9hdmFpbGFiaWxpdHlfdjIiOmZhbHNlLCJidW5kbGVfZ2xvYmFsX3NlYXJjaF9jb250ZXh0IjpudWxsfQ==&pickup=true"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.634975910186768,"display_num_ratings":"(7,100+)"},"savelists":[],"store_id":"238406"}',
-      logging:
-        '{"asap_available":true,"asap_time":33,"badges":"","business_id":"126183","business_vertical_id":"0","card_position":8,"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_name":"Top pickup restaurants nearby","container_store_list_size":12,"delivery_fee_amount":149,"delivery_fee_str":"$1.49 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/ab7a08d8-711c-4432-803c-a709f0f75b2d.jpg","express_eta_shown":false,"final_delivery_fee_line_str":"$1.49 delivery fee","fulfillment_type":"PICKUP","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"modality_icon":"DRIVING_ICON","mor_breakdown_scores":"[]","next_close_time":"2024-01-27T02:40:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"7142","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":0.7599648833274841,"star_rating":"4.634976","store_display_asap_time":"33 min","store_distance_in_miles":3.746280966403183,"store_id":"238406","store_latitude":42.226425,"store_longitude":-83.2539334,"store_name":"Malek Al Kabob","store_prediction_score":0.14784189916298818,"store_predictor_model_ids":["store_ranking_v1_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"1","travel_time_in_minutes":"9","vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:ad_378992",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Jersey Mike's Subs",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "9 min · Ready in 16 min",
-        descriptionTextAttributes: null,
-        custom: [
-          {
-            key: "delivery_fee_string",
-            value: "$0.99 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
           {
-            key: "sponsored_description",
-            value: " • $0.99 delivery fee",
-            __typename: "FacetV2TextTuple",
-          },
-        ],
-        __typename: "FacetV2Text",
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.7",
+          "accessibilityText": "A top rated restaurant with 4.7 out of 5 stars based on more than 100 reviews.",
+          "badgeType": "RATINGS"
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/33c0e2ce-c3c4-4640-8f35-159a44472df6-retina-large-jpeg",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [
+      "actionUrl": "/store/chick-fil-a-1040-us-highway-1-n/qUqUzKiOTw6V_4Zsi9a18g",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0fe4283e87fde8cd9bf6311cc63c724b/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0fe4283e87fde8cd9bf6311cc63c724b/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0fe4283e87fde8cd9bf6311cc63c724b/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0fe4283e87fde8cd9bf6311cc63c724b/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0fe4283e87fde8cd9bf6311cc63c724b/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0fe4283e87fde8cd9bf6311cc63c724b/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "a94a94cc-a88e-4f0e-95ff-866c8bd6b5f2",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.02288486286397388,
+                      "HmooScorePreSCR": 0.03156702501535416,
+                      "PredictionScore": 0.03155702501535416,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.7249610266676291,
+                      "conversion_rate_partial_score": 0.029773861169815063,
+                      "ctr_partial_score": 0.041661620140075684,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 24.60120452974313,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8768264651298523,
+                      "t120d_eyeball_count": 34456,
+                      "t120d_request_count": 4565,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.03032146850513874
+                  },
+                  "total": 0.02288486286397388
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 1.49,
+                  "dynamicBookingFeeTier": 1
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5701,
+          "longitude": -74.2934,
+          "zIndex": 10000,
+          "description": {
+              "title": "Chick-fil-A ",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.7",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "3a0fbcec-252b-4888-9452-be74460448ac",
+      "title": {
+          "text": "Taco Bell"
+      },
+      "meta": [
           {
-            key: "modality_icon",
-            value: {
-              uri: null,
-              placeholder: null,
-              local: "driving-icon",
-              style: "UNSPECIFIED",
-              logging: null,
-              events: null,
-              __typename: "FacetV2Image",
-            },
-            __typename: "FacetV2ImageTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
-        ],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"store/378992/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6IiIsInZlcnRpY2FsX2lkIjpudWxsLCJ2ZXJ0aWNhbF9uYW1lIjoiIn0sInN0b3JlX3ByaW1hcnlfdmVydGljYWxfaWRzIjpbMV0sImlzX3NpYmxpbmciOmZhbHNlLCJmb3JjZV9zdG9yZV9hdmFpbGFiaWxpdHlfdjIiOmZhbHNlLCJidW5kbGVfZ2xvYmFsX3NlYXJjaF9jb250ZXh0IjpudWxsfQ==&pickup=true"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[{"background_color":"494949","dls_tag_size":"small","dls_tag_style":"informational","dls_tag_type":"default","dls_text_style":"Body2","leading_icon":"none","placement":"sponsored_descriptor","text":"Sponsored","trailing_icon":"none","type":"sponsored"}],"is_currently_available":true,"rating":{"average_rating":4.73428201675415,"display_num_ratings":"(6,000+)"},"savelists":[],"store_id":"378992"}',
-      logging:
-        '{"ad_auction_id":"b2fceba8-3dd9-abbc-8e82-7f0d5017b6cb","ad_group_id":"a24592c9-e89b-4382-9633-7df2db6f1deb","asap_available":true,"asap_time":30,"badges":"text:Sponsored,type:sponsored;","business_id":"1431","business_vertical_id":"0","campaign_id":"ca49acf5-0e88-4227-9f42-89b0dd1a84a7","card_position":9,"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_name":"Top pickup restaurants nearby","container_store_list_size":12,"delivery_fee_amount":99,"delivery_fee_str":"$0.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/33c0e2ce-c3c4-4640-8f35-159a44472df6-retina-large-jpeg","express_eta_shown":false,"final_delivery_fee_line_str":"$0.99 delivery fee","fulfillment_type":"PICKUP","has_offer_badges":true,"is_cross_vertical":true,"is_sponsored":true,"minimum_subtotal_amount":0,"modality_icon":"DRIVING_ICON","next_close_time":"2024-01-27T01:30:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"6044","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":1,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"star_rating":"4.734282","store_display_asap_time":"30 min","store_distance_in_miles":2.96570562852029,"store_id":"378992","store_latitude":42.2350768,"store_longitude":-83.2687166,"store_name":"Jersey Mike\'s Subs","store_primary_vertical_id":"1","travel_time_in_minutes":"9","vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:1339896",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Taylor kabob",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "10 min · Ready in 20 min",
-        descriptionTextAttributes: null,
-        custom: [
           {
-            key: "delivery_fee_string",
-            value: "$0.99 delivery fee",
-            __typename: "FacetV2TextTuple",
-          },
-        ],
-        __typename: "FacetV2Text",
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.5",
+          "accessibilityText": "A top rated restaurant with 4.5 out of 5 stars based on more than 100 reviews.",
+          "badgeType": "RATINGS"
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/8af749a2-e5ab-49e7-916e-28a7791013af.jpg",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [
+      "actionUrl": "/store/taco-bell-901-st-georges-ave/Og-87CUrSIiUUr50RgRIrA",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/88ada352d8019a95515f7885cc134a10/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/88ada352d8019a95515f7885cc134a10/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/88ada352d8019a95515f7885cc134a10/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/88ada352d8019a95515f7885cc134a10/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/88ada352d8019a95515f7885cc134a10/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/88ada352d8019a95515f7885cc134a10/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "3a0fbcec-252b-4888-9452-be74460448ac",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.01349445864174344,
+                      "HmooScorePreSCR": 0.01721184236764908,
+                      "PredictionScore": 0.01720184236764908,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.784021742327089,
+                      "conversion_rate_partial_score": 0.015385955572128296,
+                      "ctr_partial_score": 0.027491867542266846,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 21.489044127353225,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8626968860626221,
+                      "t120d_eyeball_count": 39920,
+                      "t120d_request_count": 3948,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.038155524242075745
+                  },
+                  "total": 0.01349445864174344
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 1.99,
+                  "dynamicBookingFeeTier": 4
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5696,
+          "longitude": -74.2916,
+          "zIndex": 9999,
+          "description": {
+              "title": "Taco Bell",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.5",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "db0e4308-e797-48ab-bc1b-d379b03bc6b1",
+      "title": {
+          "text": "Popeyes"
+      },
+      "meta": [
           {
-            key: "modality_icon",
-            value: {
-              uri: null,
-              placeholder: null,
-              local: "driving-icon",
-              style: "UNSPECIFIED",
-              logging: null,
-              events: null,
-              __typename: "FacetV2Image",
-            },
-            __typename: "FacetV2ImageTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
-        ],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"store/1339896/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6IiIsInZlcnRpY2FsX2lkIjpudWxsLCJ2ZXJ0aWNhbF9uYW1lIjoiIn0sInN0b3JlX3ByaW1hcnlfdmVydGljYWxfaWRzIjpbMV0sImlzX3NpYmxpbmciOmZhbHNlLCJmb3JjZV9zdG9yZV9hdmFpbGFiaWxpdHlfdjIiOmZhbHNlLCJidW5kbGVfZ2xvYmFsX3NlYXJjaF9jb250ZXh0IjpudWxsfQ==&pickup=true"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.743093967437744,"display_num_ratings":"(720+)"},"savelists":[],"store_id":"1339896"}',
-      logging:
-        '{"asap_available":true,"asap_time":44,"badges":"","business_id":"633114","business_vertical_id":"0","card_position":10,"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_name":"Top pickup restaurants nearby","container_store_list_size":12,"delivery_fee_amount":99,"delivery_fee_str":"$0.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/8af749a2-e5ab-49e7-916e-28a7791013af.jpg","express_eta_shown":false,"final_delivery_fee_line_str":"$0.99 delivery fee","fulfillment_type":"PICKUP","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"modality_icon":"DRIVING_ICON","mor_breakdown_scores":"[]","next_close_time":"2024-01-27T01:40:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"724","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1.100000023841858,"star_rating":"4.743094","store_display_asap_time":"44 min","store_distance_in_miles":4.845835128829078,"store_id":"1339896","store_latitude":42.2565836,"store_longitude":-83.2373981,"store_name":"Taylor kabob","store_prediction_score":0.170709567491782,"store_predictor_model_ids":["store_ranking_v1_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"1","travel_time_in_minutes":"10","vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:400377",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "The Taco Stand Taqueria",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "11 min · Ready in 11 min",
-        descriptionTextAttributes: null,
-        custom: [
           {
-            key: "delivery_fee_string",
-            value: "$1.99 delivery fee",
-            __typename: "FacetV2TextTuple",
-          },
-        ],
-        __typename: "FacetV2Text",
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.4",
+          "accessibilityText": "Rated 4.4 out of 5 stars based on 88 reviews.",
+          "badgeType": "RATINGS"
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/cee8f1e9-6e8c-4617-b7db-5439e16b8066.jpg",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [
+      "actionUrl": "/store/popeyes-889-st-georges-ave/2w5DCOeXSKu8G9N5sDvGsQ",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/128426b6b3f984e779ec08722ac59bf9/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/128426b6b3f984e779ec08722ac59bf9/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/128426b6b3f984e779ec08722ac59bf9/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/128426b6b3f984e779ec08722ac59bf9/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/128426b6b3f984e779ec08722ac59bf9/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/128426b6b3f984e779ec08722ac59bf9/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": [
           {
-            key: "modality_icon",
-            value: {
-              uri: null,
-              placeholder: null,
-              local: "driving-icon",
-              style: "UNSPECIFIED",
-              logging: null,
-              events: null,
-              __typename: "FacetV2Image",
-            },
-            __typename: "FacetV2ImageTuple",
+              "backgroundColor": {
+                  "color": "#0E8345"
+              },
+              "text": "Buy 1, Get 1 Free",
+              "textColor": {
+                  "color": "#FFFFFF"
+              }
+          }
+      ],
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
           },
-        ],
-        __typename: "FacetV2Images",
+          "storePayload": {
+              "storeUUID": "db0e4308-e797-48ab-bc1b-d379b03bc6b1",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.01264741853586991,
+                      "HmooScorePreSCR": 0.016114756295680998,
+                      "PredictionScore": 0.016104756295681,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.7848346139283293,
+                      "conversion_rate_partial_score": 0.013503581285476685,
+                      "ctr_partial_score": 0.03084474802017212,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 28.67735026073077,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8127489686012268,
+                      "t120d_eyeball_count": 26791,
+                      "t120d_request_count": 2033,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.04813259979489167
+                  },
+                  "total": 0.01264741853586991
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.49,
+                  "dynamicBookingFeeTier": 1
+              },
+              "promotionUUID": "8bd3526a-28f0-4fcf-a3f1-6e56ec53e702",
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN",
+              "offerMetadata": {
+                  "analyticsUUID": "0be2c83c-ffbb-41c0-b478-976e956bc20a",
+                  "promotionUUIDs": [
+                      "8bd3526a-28f0-4fcf-a3f1-6e56ec53e702"
+                  ],
+                  "offerTypeCount": 1,
+                  "concatSignpost": "promo.restaurant.free_item_with_cart_item_constraint"
+              }
+          }
       },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"store/400377/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6IiIsInZlcnRpY2FsX2lkIjpudWxsLCJ2ZXJ0aWNhbF9uYW1lIjoiIn0sInN0b3JlX3ByaW1hcnlfdmVydGljYWxfaWRzIjpbMSwxNDRdLCJpc19zaWJsaW5nIjpmYWxzZSwiZm9yY2Vfc3RvcmVfYXZhaWxhYmlsaXR5X3YyIjpmYWxzZSwiYnVuZGxlX2dsb2JhbF9zZWFyY2hfY29udGV4dCI6bnVsbH0=&pickup=true"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
+      "mapMarker": {
+          "latitude": 40.5695,
+          "longitude": -74.2937,
+          "zIndex": 9998,
+          "description": {
+              "title": "Popeyes ",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.4",
+              "size": "SPACING_UNIT_4X"
+          },
+          "secondaryMarkerContent": {
+              "color": "CONTENT_POSITIVE",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_POSITIVE",
+              "icon": "TAG"
+          }
       },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.783332824707031,"display_num_ratings":"(11,400+)"},"savelists":[],"store_id":"400377"}',
-      logging:
-        '{"asap_available":true,"asap_time":36,"badges":"","business_id":"121459","business_vertical_id":"0","card_position":11,"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_name":"Top pickup restaurants nearby","container_store_list_size":12,"delivery_fee_amount":199,"delivery_fee_str":"$1.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/cee8f1e9-6e8c-4617-b7db-5439e16b8066.jpg","express_eta_shown":false,"final_delivery_fee_line_str":"$1.99 delivery fee","fulfillment_type":"PICKUP","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"modality_icon":"DRIVING_ICON","mor_breakdown_scores":"[]","next_close_time":"2024-01-27T02:00:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"11400","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":0.5328019261360168,"star_rating":"4.783333","store_display_asap_time":"36 min","store_distance_in_miles":4.887886694749381,"store_id":"400377","store_latitude":42.22713679999999,"store_longitude":-83.2314063,"store_name":"The Taco Stand Taqueria","store_prediction_score":0.12966135767382791,"store_predictor_model_ids":["store_ranking_v1_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"1","travel_time_in_minutes":"11","vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.action:more:c92d3c3f-ff3c-4945-a1ea-7824cea60bb7",
-      childrenCount: 0,
-      component: {
-        id: "card.action",
-        category: "card",
-        __typename: "FacetV2Component",
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
       },
-      name: null,
-      text: {
-        title: "More Stores",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: null,
-        descriptionTextAttributes: null,
-        custom: [],
-        __typename: "FacetV2Text",
+      "endorsements": null,
+      "meta4": null,
+      "promotionConfiguration": {
+          "regularPromotionConfiguration": {}
+      }
+  },
+  {
+      "storeUuid": "77f6e514-ef6a-4908-80c7-c3a4bee2d68c",
+      "title": {
+          "text": "Panda Express"
       },
-      images: {
-        main: {
-          uri: null,
-          placeholder: null,
-          local: "arrow-right",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: null,
-        custom: [],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"facet_feed/eyJvZmZzZXQiOjAsImNvbnRlbnRfaWRzIjpbIjEzMTMyMTYiLCIzMDc0NTUiLCIyMzg0NjMiLCI0MDU5ODkiLCIxMjAwMTk4IiwiMzc4OTkyIiwiMjMwMDQwMzAiLCIyMzg0MDYiLCIxMzM5ODk2IiwiNDAwMzc3Il0sInJlcXVlc3RfcGFyZW50X2lkIjoiREVGQVVMVF9IT01FUEFHRSIsInJlcXVlc3RfY2hpbGRfaWQiOiJjYXJvdXNlbC5zdGFuZGFyZDpzdG9yZV9jYXJvdXNlbDpjOTJkM2MzZi1mZjNjLTQ5NDUtYTFlYS03ODI0Y2VhNjBiYjciLCJyZXF1ZXN0X2NoaWxkX2NvbXBvbmVudF9pZCI6ImNhcmQuYWN0aW9uIiwiY3Jvc3NfdmVydGljYWxfcGFnZV90eXBlIjoiREVGQVVMVF9IT01FUEFHRSIsInBhZ2Vfc3RhY2tfdHJhY2UiOltdLCJ2ZXJ0aWNhbF9pZHMiOltdLCJ2ZXJ0aWNhbF9jb250ZXh0X2lkIjpudWxsLCJsYXlvdXRfb3ZlcnJpZGUiOiJVTlNQRUNJRklFRCIsInNpbmdsZV9zdG9yZV9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjpudWxsLCJjYXRlZ29yeV9pZHMiOltdLCJjb2xsZWN0aW9uX2lkcyI6W10sImRkX3BsYWNlX2lkcyI6WyI1YmJjYjFlYS05NmZkLTRjMTItYjdjOS03N2ZkMmE5ZmZkNGQiXSwiaXNfcGFnaW5hdGlvbl9mYWxsYmFjayI6bnVsbCwic291cmNlX3BhZ2VfdHlwZSI6bnVsbCwiYmFzZUN1cnNvciI6eyJwYWdlX2lkIjoiYzkyZDNjM2YtZmYzYy00OTQ1LWExZWEtNzgyNGNlYTYwYmI3IiwicGFnZV90eXBlIjoiU1RPUkVfQ0FST1VTRUxfTEFORElORyIsImN1cnNvcl92ZXJzaW9uIjoiRkFDRVQifSwidmVydGljYWxfbmFtZXMiOnt9LCJpdGVtX2lkcyI6W10sIm1lcmNoYW50X3N1cHBsaWVkX2lkcyI6W10sImlzX291dF9vZl9zdG9jayI6bnVsbCwibWVudV9pZCI6bnVsbCwidHJhY2tpbmciOm51bGwsImRpZXRhcnlfdGFnIjpudWxsLCJvcmlnaW5fdGl0bGUiOm51bGwsInJhbmtlZF9yZW1haW5pbmdfY29sbGVjdGlvbl9pZHMiOm51bGwsImN1cnNvclZlcnNpb24iOiJGQUNFVF9DT05URU5UX09GRlNFVCIsInBhZ2VJZCI6ImM5MmQzYzNmLWZmM2MtNDk0NS1hMWVhLTc4MjRjZWE2MGJiNyIsInBhZ2VUeXBlIjoiU1RPUkVfQ0FST1VTRUxfTEFORElORyJ9/"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom: null,
-      logging:
-        '{"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_multiplier":1,"container_name":"Top pickup restaurants nearby","container_predictor_model_ids":["store_ranking_v1_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"container_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"container_score":0.013267348421564407,"is_cross_vertical":true,"mor_breakdown_scores":"[]","page":"explore_page","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","programmatic_boost_multiplier":1,"type":"see_all","ucb_uncertainty_score":0.009999999776482582,"ur_multiplier":0.5229644775390625,"vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "carousel.standard:store_carousel:c92d3c3f-ff3c-4945-a1ea-7824cea60bb7",
-      childrenCount: 13,
-      component: {
-        id: "carousel.standard",
-        category: "carousel",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Top pickup restaurants nearby",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: null,
-        descriptionTextAttributes: null,
-        custom: [],
-        __typename: "FacetV2Text",
-      },
-      images: null,
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"facet_feed/eyJvZmZzZXQiOjAsImNvbnRlbnRfaWRzIjpbIjEzMTMyMTYiLCIzMDc0NTUiLCIyMzg0NjMiLCI0MDU5ODkiLCIxMjAwMTk4IiwiMzc4OTkyIiwiMjMwMDQwMzAiLCIyMzg0MDYiLCIxMzM5ODk2IiwiNDAwMzc3Il0sInJlcXVlc3RfcGFyZW50X2lkIjoiREVGQVVMVF9IT01FUEFHRSIsInJlcXVlc3RfY2hpbGRfaWQiOiJjYXJvdXNlbC5zdGFuZGFyZDpzdG9yZV9jYXJvdXNlbDpjOTJkM2MzZi1mZjNjLTQ5NDUtYTFlYS03ODI0Y2VhNjBiYjciLCJyZXF1ZXN0X2NoaWxkX2NvbXBvbmVudF9pZCI6ImNhcm91c2VsLnN0YW5kYXJkIiwiY3Jvc3NfdmVydGljYWxfcGFnZV90eXBlIjoiREVGQVVMVF9IT01FUEFHRSIsInBhZ2Vfc3RhY2tfdHJhY2UiOltdLCJ2ZXJ0aWNhbF9pZHMiOltdLCJ2ZXJ0aWNhbF9jb250ZXh0X2lkIjpudWxsLCJsYXlvdXRfb3ZlcnJpZGUiOiJVTlNQRUNJRklFRCIsInNpbmdsZV9zdG9yZV9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjpudWxsLCJjYXRlZ29yeV9pZHMiOltdLCJjb2xsZWN0aW9uX2lkcyI6W10sImRkX3BsYWNlX2lkcyI6WyI1YmJjYjFlYS05NmZkLTRjMTItYjdjOS03N2ZkMmE5ZmZkNGQiXSwiaXNfcGFnaW5hdGlvbl9mYWxsYmFjayI6bnVsbCwic291cmNlX3BhZ2VfdHlwZSI6bnVsbCwiYmFzZUN1cnNvciI6eyJwYWdlX2lkIjoiYzkyZDNjM2YtZmYzYy00OTQ1LWExZWEtNzgyNGNlYTYwYmI3IiwicGFnZV90eXBlIjoiU1RPUkVfQ0FST1VTRUxfTEFORElORyIsImN1cnNvcl92ZXJzaW9uIjoiRkFDRVQifSwidmVydGljYWxfbmFtZXMiOnt9LCJpdGVtX2lkcyI6W10sIm1lcmNoYW50X3N1cHBsaWVkX2lkcyI6W10sImlzX291dF9vZl9zdG9jayI6bnVsbCwibWVudV9pZCI6bnVsbCwidHJhY2tpbmciOm51bGwsImRpZXRhcnlfdGFnIjpudWxsLCJvcmlnaW5fdGl0bGUiOm51bGwsInJhbmtlZF9yZW1haW5pbmdfY29sbGVjdGlvbl9pZHMiOm51bGwsImN1cnNvclZlcnNpb24iOiJGQUNFVF9DT05URU5UX09GRlNFVCIsInBhZ2VJZCI6ImM5MmQzYzNmLWZmM2MtNDk0NS1hMWVhLTc4MjRjZWE2MGJiNyIsInBhZ2VUeXBlIjoiU1RPUkVfQ0FST1VTRUxfTEFORElORyJ9/"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: {
-        omitFooter: true,
-        gridSpecs: null,
-        dlsPadding: null,
-        __typename: "FacetV2Layout",
-      },
-      custom: '{"show_inline_nav_buttons":true}',
-      logging:
-        '{"container":"cluster","container_id":"c92d3c3f-ff3c-4945-a1ea-7824cea60bb7","container_multiplier":1,"container_name":"Top pickup restaurants nearby","container_predictor_model_ids":["store_ranking_v1_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"container_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"container_score":0.013267348421564407,"is_cross_vertical":true,"mor_breakdown_scores":"[]","page":"explore_page","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","programmatic_boost_multiplier":1,"ucb_uncertainty_score":0.009999999776482582,"ur_multiplier":0.5229644775390625,"vertical_position":13}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "divider.standard:748a1234-1496-4b83-90c9-a5e92c44ce58",
-      childrenCount: 0,
-      component: {
-        id: "divider.standard",
-        category: "divider",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: null,
-      images: null,
-      events: null,
-      style: null,
-      layout: null,
-      custom: null,
-      logging: null,
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:2879175",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Merriman Liquor",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "2.7 mi • 30 min • $​0 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
+      "meta": [
           {
-            key: "delivery_fee_string",
-            value: "$​0 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/3f184e78-a132-47cb-bec5-2565855714ca.12",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/2879175/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.792325019836426,"display_num_ratings":"(1,700+)"},"savelists":[],"store_id":"2879175"}',
-      logging:
-        '{"asap_available":true,"asap_time":30,"badges":"","business_id":"1063494","business_vertical_id":"168","card_position":0,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":0,"delivery_fee_str":"$0 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/3f184e78-a132-47cb-bec5-2565855714ca.12","express_eta_shown":false,"final_delivery_fee_line_str":"$​0 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T03:15:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"1772","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.792325","store_display_asap_time":"30 min","store_distance_in_miles":2.6549961983747816,"store_id":"2879175","store_latitude":42.2677998,"store_longitude":-83.348625,"store_name":"Merriman Liquor","store_prediction_score":0.09696067869663239,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:24766000",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Andrew's Liquor",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "5.4 mi • 37 min • $0.99 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
           {
-            key: "delivery_fee_string",
-            value: "$0.99 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "20 min",
+              "accessibilityText": "Delivered in 20 to 20 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.4",
+          "accessibilityText": "Rated 4.4 out of 5 stars based on more than 100 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/panda-express-314-us-hwy-9-n/d_blFO9qSQiAx8OkvuLWjA",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0f900134a7eb40763a7077a990c5b07d/132976946f0604ab7f405a880c4eb56e.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0f900134a7eb40763a7077a990c5b07d/441bf6977800176fb95abdb25cc05b15.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0f900134a7eb40763a7077a990c5b07d/f93d4f3eb12b75c59156ea672238e6e7.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0f900134a7eb40763a7077a990c5b07d/e54402bca0356411faf70e9036bd26d5.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0f900134a7eb40763a7077a990c5b07d/6886cf52a93639059370715f080718ac.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0f900134a7eb40763a7077a990c5b07d/d61f329eea533b10ec62c2dfeec09643.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
           },
-        ],
-        __typename: "FacetV2Text",
+          "storePayload": {
+              "storeUUID": "77f6e514-ef6a-4908-80c7-c3a4bee2d68c",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.012081828255324951,
+                      "HmooScorePreSCR": 0.016580504009723662,
+                      "PredictionScore": 0.016570504009723663,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.7286767789591646,
+                      "conversion_rate_partial_score": 0.014961004257202148,
+                      "ctr_partial_score": 0.02569100260734558,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 23.082066242603013,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8322049975395203,
+                      "t120d_eyeball_count": 43873,
+                      "t120d_request_count": 2595,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.03708335662676616
+                  },
+                  "total": 0.012081828255324951
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 20,
+                      "max": 20,
+                      "raw": 20
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 2.49,
+                  "dynamicBookingFeeTier": 5
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/aed427ac-d466-4c38-a7cc-8e08ee8e5b0f.12",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
+      "mapMarker": {
+          "latitude": 40.5347,
+          "longitude": -74.2953,
+          "zIndex": 9997,
+          "description": {
+              "title": "Panda Express",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.4",
+              "size": "SPACING_UNIT_4X"
+          }
       },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/24766000/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
       },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.899264812469482,"display_num_ratings":"(950+)"},"savelists":[],"store_id":"24766000"}',
-      logging:
-        '{"asap_available":true,"asap_time":37,"badges":"","business_id":"11160680","business_vertical_id":"168","card_position":1,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":99,"delivery_fee_str":"$0.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/aed427ac-d466-4c38-a7cc-8e08ee8e5b0f.12","express_eta_shown":false,"final_delivery_fee_line_str":"$0.99 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T04:14:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"953","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.899265","store_display_asap_time":"37 min","store_distance_in_miles":5.438567566665853,"store_id":"24766000","store_latitude":42.3116343,"store_longitude":-83.3313016,"store_name":"Andrew\'s Liquor","store_prediction_score":0.0956295058131218,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:2323008",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "7507090f-b2a0-473e-9b2a-0da96f6c8524",
+      "title": {
+          "text": "Wendy's"
       },
-      name: null,
-      text: {
-        title: "Taylor Party Store",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "2.9 mi • 30 min • $​0 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
+      "meta": [
           {
-            key: "delivery_fee_string",
-            value: "$​0 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/5b00b668-6f6d-447c-91e3-84fcd7d53014.12",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/2323008/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.768143177032471,"display_num_ratings":"(1,000+)"},"savelists":[],"store_id":"2323008"}',
-      logging:
-        '{"asap_available":true,"asap_time":30,"badges":"","business_id":"926430","business_vertical_id":"168","card_position":2,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":0,"delivery_fee_str":"$0 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/5b00b668-6f6d-447c-91e3-84fcd7d53014.12","express_eta_shown":false,"final_delivery_fee_line_str":"$​0 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T02:30:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"1061","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.768143","store_display_asap_time":"30 min","store_distance_in_miles":2.9442051382563634,"store_id":"2323008","store_latitude":42.2423742,"store_longitude":-83.2704772,"store_name":"Taylor Party Store","store_prediction_score":0.08751904219388962,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:2907335",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Party Palace",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "5.2 mi • 42 min • $​0 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
           {
-            key: "delivery_fee_string",
-            value: "$​0 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.2",
+          "accessibilityText": "Rated 4.2 out of 5 stars based on 94 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/wendys-820-us-route-1/dQcJD7KgRz6bKg2pb2yFJA",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/15f786ce6175de31c26602f6787a97cf/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/15f786ce6175de31c26602f6787a97cf/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/15f786ce6175de31c26602f6787a97cf/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/15f786ce6175de31c26602f6787a97cf/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/15f786ce6175de31c26602f6787a97cf/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/15f786ce6175de31c26602f6787a97cf/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
           },
-        ],
-        __typename: "FacetV2Text",
+          "storePayload": {
+              "storeUUID": "7507090f-b2a0-473e-9b2a-0da96f6c8524",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.011295582435756903,
+                      "HmooScorePreSCR": 0.017599804530143738,
+                      "PredictionScore": 0.01758980453014374,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.6418015845807039,
+                      "conversion_rate_partial_score": 0.016426503658294678,
+                      "ctr_partial_score": 0.024181842803955078,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 21.602740411568305,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8537734150886536,
+                      "t120d_eyeball_count": 19774,
+                      "t120d_request_count": 1915,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.05360452673369011
+                  },
+                  "total": 0.011295582435756903
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 2.99,
+                  "dynamicBookingFeeTier": 6
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/b2eea08e-8c50-4ff8-abad-e4c18bc11c59.12",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
+      "mapMarker": {
+          "latitude": 40.5635,
+          "longitude": -74.2996,
+          "zIndex": 9996,
+          "description": {
+              "title": "Wendy's ",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.2",
+              "size": "SPACING_UNIT_4X"
+          }
       },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/2907335/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
       },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.8447489738464355,"display_num_ratings":"(1,000+)"},"savelists":[],"store_id":"2907335"}',
-      logging:
-        '{"asap_available":true,"asap_time":42,"badges":"","business_id":"1065135","business_vertical_id":"168","card_position":3,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":0,"delivery_fee_str":"$0 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/b2eea08e-8c50-4ff8-abad-e4c18bc11c59.12","express_eta_shown":false,"final_delivery_fee_line_str":"$​0 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T04:14:59Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"1095","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.844749","store_display_asap_time":"42 min","store_distance_in_miles":5.233768853811491,"store_id":"2907335","store_latitude":42.2700239,"store_longitude":-83.2373436,"store_name":"Party Palace","store_prediction_score":0.08650405704975128,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:23065199",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "53d110a6-69a4-43bf-a04f-37d72c976d88",
+      "title": {
+          "text": "Chipotle Mexican Grill"
       },
-      name: null,
-      text: {
-        title: "Top Shelf Liquor",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "6.2 mi • 50 min • $​0 delivery fee over $15",
-        descriptionTextAttributes: null,
-        custom: [
+      "meta": [
           {
-            key: "delivery_fee_string",
-            value: "$​0 delivery fee over $15",
-            __typename: "FacetV2TextTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/f7367ccc-3ae9-48fd-94ef-e042abec8210.9",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/23065199/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[{"background_color":"00838A","dls_tag_size":"small","dls_tag_style":"highlight","dls_tag_type":"emphasis","dls_text_style":"","leading_icon":"deals/fill","placement":"hero_overlay","text":"$0 delivery fee","trailing_icon":"none","type":"offer"}],"is_currently_available":true,"rating":{"average_rating":4.736930847167969,"display_num_ratings":"(590+)"},"savelists":[],"store_id":"23065199"}',
-      logging:
-        '{"asap_available":true,"asap_time":50,"badges":"text:$0 delivery fee,type:offer;","business_id":"11109196","business_vertical_id":"168","card_position":4,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":0,"delivery_fee_str":"$0 delivery fee over $15","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/f7367ccc-3ae9-48fd-94ef-e042abec8210.9","express_eta_shown":false,"final_delivery_fee_line_str":"$​0 delivery fee over $15","fulfillment_type":"DELIVERY","has_offer_badges":true,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":1500,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T04:14:59Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"593","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":false,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.736931","store_display_asap_time":"50 min","store_distance_in_miles":6.22134794273827,"store_id":"23065199","store_latitude":42.2581213,"store_longitude":-83.20981499999999,"store_name":"Top Shelf Liquor","store_prediction_score":0.08264487236738205,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:25939156",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Maria's Market Place",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "8.2 mi • 37 min • $1.99 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
           {
-            key: "delivery_fee_string",
-            value: "$1.99 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "25 min",
+              "accessibilityText": "Delivered in 25 to 25 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.2",
+          "accessibilityText": "Rated 4.2 out of 5 stars based on 54 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/chipotle-mexican-grill-55-parsonage-rd/U9EQpmmkQ7-gTzfXLJdtiA",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ededa51b98fa2f17cc357e1599324a14/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ededa51b98fa2f17cc357e1599324a14/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ededa51b98fa2f17cc357e1599324a14/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ededa51b98fa2f17cc357e1599324a14/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ededa51b98fa2f17cc357e1599324a14/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ededa51b98fa2f17cc357e1599324a14/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
           },
-        ],
-        __typename: "FacetV2Text",
+          "storePayload": {
+              "storeUUID": "53d110a6-69a4-43bf-a04f-37d72c976d88",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.010800484913489252,
+                      "HmooScorePreSCR": 0.017089496383666993,
+                      "PredictionScore": 0.017079496383666994,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.6319955059536827,
+                      "conversion_rate_partial_score": 0.015210211277008057,
+                      "ctr_partial_score": 0.027672111988067627,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 25.142103782740946,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8287108540534973,
+                      "t120d_eyeball_count": 12867,
+                      "t120d_request_count": 1165,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.06742768655560981
+                  },
+                  "total": 0.010800484913489252
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 25,
+                      "max": 25,
+                      "raw": 25
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 3.49,
+                  "dynamicBookingFeeTier": 7
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/bd1f5b64-9144-4527-a627-33744c2d7e0d.9",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
+      "mapMarker": {
+          "latitude": 40.5479,
+          "longitude": -74.3343,
+          "zIndex": 9995,
+          "description": {
+              "title": "Chipotle Mexican Grill",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.2",
+              "size": "SPACING_UNIT_4X"
+          }
       },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/25939156/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
       },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.897959232330322,"display_num_ratings":"(98)"},"savelists":[],"store_id":"25939156"}',
-      logging:
-        '{"asap_available":true,"asap_time":37,"badges":"","business_id":"11099986","business_vertical_id":"168","card_position":5,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":199,"delivery_fee_str":"$1.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/bd1f5b64-9144-4527-a627-33744c2d7e0d.9","express_eta_shown":false,"final_delivery_fee_line_str":"$1.99 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T02:30:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"98","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.897959","store_display_asap_time":"37 min","store_distance_in_miles":8.163556236340563,"store_id":"25939156","store_latitude":42.3089556,"store_longitude":-83.448932,"store_name":"Maria\'s Market Place","store_prediction_score":0.07809565216302872,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:24153683",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "fbce346d-6226-4812-b4ad-c92ff8a77250",
+      "title": {
+          "text": "Wingstop"
       },
-      name: null,
-      text: {
-        title: "Norms Market",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "2.5 mi • 31 min • $​0 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
+      "meta": [
           {
-            key: "delivery_fee_string",
-            value: "$​0 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/31b604a9-500a-4e36-812f-5e0bf36941d5.13",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/24153683/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.882352828979492,"display_num_ratings":"(102)"},"savelists":[],"store_id":"24153683"}',
-      logging:
-        '{"asap_available":true,"asap_time":31,"badges":"","business_id":"11316632","business_vertical_id":"168","card_position":6,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":0,"delivery_fee_str":"$0 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/31b604a9-500a-4e36-812f-5e0bf36941d5.13","express_eta_shown":false,"final_delivery_fee_line_str":"$​0 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T02:15:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"102","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.882353","store_display_asap_time":"31 min","store_distance_in_miles":2.4790175668832664,"store_id":"24153683","store_latitude":42.25524679999999,"store_longitude":-83.2886025,"store_name":"Norms Market","store_prediction_score":0.0772615596652031,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:2376008",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Langley Liquor & Lottery",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "7.5 mi • 46 min • $0.99 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
           {
-            key: "delivery_fee_string",
-            value: "$0.99 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "30 min",
+              "accessibilityText": "Delivered in 30 to 30 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.4",
+          "accessibilityText": "Rated 4.4 out of 5 stars based on more than 100 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/wingstop-306-us-highway-9-n/-840bWImSBK0rckv-KdyUA",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/8c9c527f6aac7119c9a96e5718bf210d/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/8c9c527f6aac7119c9a96e5718bf210d/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/8c9c527f6aac7119c9a96e5718bf210d/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/8c9c527f6aac7119c9a96e5718bf210d/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/8c9c527f6aac7119c9a96e5718bf210d/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/8c9c527f6aac7119c9a96e5718bf210d/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
           },
-        ],
-        __typename: "FacetV2Text",
+          "storePayload": {
+              "storeUUID": "fbce346d-6226-4812-b4ad-c92ff8a77250",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.01045680321821288,
+                      "HmooScorePreSCR": 0.014184485206604003,
+                      "PredictionScore": 0.014174485206604004,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.7372000510349441,
+                      "conversion_rate_partial_score": 0.011646896600723267,
+                      "ctr_partial_score": 0.02849748730659485,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 25.61915104342645,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8118581771850586,
+                      "t120d_eyeball_count": 41783,
+                      "t120d_request_count": 2963,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.04108557631730916
+                  },
+                  "total": 0.01045680321821288
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 30,
+                      "max": 30,
+                      "raw": 30
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 2.99,
+                  "dynamicBookingFeeTier": 6
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://cdn.doordash.com/media/photos/22ecc211-2020-4e3c-8119-eb2ad18de95e-retina-large-jpeg",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
+      "mapMarker": {
+          "latitude": 40.5348,
+          "longitude": -74.2954,
+          "zIndex": 9994,
+          "description": {
+              "title": "Wingstop",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.4",
+              "size": "SPACING_UNIT_4X"
+          }
       },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/2376008/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
       },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.853503227233887,"display_num_ratings":"(780+)"},"savelists":[],"store_id":"2376008"}',
-      logging:
-        '{"asap_available":true,"asap_time":46,"badges":"","business_id":"942505","business_vertical_id":"168","card_position":7,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":99,"delivery_fee_str":"$0.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://cdn.doordash.com/media/photos/22ecc211-2020-4e3c-8119-eb2ad18de95e-retina-large-jpeg","express_eta_shown":false,"final_delivery_fee_line_str":"$0.99 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T04:15:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"785","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.853503","store_display_asap_time":"46 min","store_distance_in_miles":7.472582940991776,"store_id":"2376008","store_latitude":42.2629993,"store_longitude":-83.1862483,"store_name":"Langley Liquor & Lottery","store_prediction_score":0.07692600786685944,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:2302962",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "8562a5ce-562d-4261-abe3-4044f087e0ee",
+      "title": {
+          "text": "Burger King"
       },
-      name: null,
-      text: {
-        title: "Pinewood Party Store",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "8.0 mi • 48 min • $0.99 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
+      "meta": [
           {
-            key: "delivery_fee_string",
-            value: "$0.99 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
           },
-        ],
-        __typename: "FacetV2Text",
-      },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://cdn.doordash.com/media/photos/c05ab5f9-75fd-42a4-b011-776f7fee3629-retina-large-jpeg",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
-      },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/2302962/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
-      },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.8422980308532715,"display_num_ratings":"(810+)"},"savelists":[],"store_id":"2302962"}',
-      logging:
-        '{"asap_available":true,"asap_time":48,"badges":"","business_id":"921975","business_vertical_id":"168","card_position":8,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":99,"delivery_fee_str":"$0.99 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://cdn.doordash.com/media/photos/c05ab5f9-75fd-42a4-b011-776f7fee3629-retina-large-jpeg","express_eta_shown":false,"final_delivery_fee_line_str":"$0.99 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T04:14:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"818","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.842298","store_display_asap_time":"48 min","store_distance_in_miles":7.99268796801994,"store_id":"2302962","store_latitude":42.2554156,"store_longitude":-83.1733161,"store_name":"Pinewood Party Store","store_prediction_score":0.0729578509926796,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.store:store:22926395",
-      childrenCount: 0,
-      component: {
-        id: "card.store",
-        category: "card",
-        __typename: "FacetV2Component",
-      },
-      name: null,
-      text: {
-        title: "Wayne Med Market",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: "6.0 mi • 36 min • $​0 delivery fee",
-        descriptionTextAttributes: null,
-        custom: [
           {
-            key: "delivery_fee_string",
-            value: "$​0 delivery fee",
-            __typename: "FacetV2TextTuple",
+              "text": "10 min",
+              "accessibilityText": "Delivered in 10 to 10 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.5",
+          "accessibilityText": "Rated 4.5 out of 5 stars based on 40 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/burger-king-173-wood-avenue/hWKlzlYtQmGr40BE8Ifg7g",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b48d28bf3f064c985eb58802a2d9c898/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b48d28bf3f064c985eb58802a2d9c898/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b48d28bf3f064c985eb58802a2d9c898/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b48d28bf3f064c985eb58802a2d9c898/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b48d28bf3f064c985eb58802a2d9c898/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b48d28bf3f064c985eb58802a2d9c898/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
           },
-        ],
-        __typename: "FacetV2Text",
+          "storePayload": {
+              "storeUUID": "8562a5ce-562d-4261-abe3-4044f087e0ee",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.01032322767205623,
+                      "HmooScorePreSCR": 0.014948797056674956,
+                      "PredictionScore": 0.014938797056674957,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.6905724676653289,
+                      "conversion_rate_partial_score": 0.01375541090965271,
+                      "ctr_partial_score": 0.021644651889801025,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 21.972013274740902,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8900954723358154,
+                      "t120d_eyeball_count": 9858,
+                      "t120d_request_count": 477,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.08235796590966486
+                  },
+                  "total": 0.01032322767205623
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 10,
+                      "max": 10,
+                      "raw": 10
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.49,
+                  "dynamicBookingFeeTier": 1
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
       },
-      images: {
-        main: {
-          uri: "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2/6fa518ea-c869-45d3-a312-8b1d84396274-retina-large.JPEG",
-          placeholder: null,
-          local: null,
-          style: "ROUNDED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: {
-          uri: null,
-          placeholder: null,
-          local: "dashpass-badge",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        custom: [],
-        __typename: "FacetV2Images",
+      "mapMarker": {
+          "latitude": 40.5726,
+          "longitude": -74.3363,
+          "zIndex": 9993,
+          "description": {
+              "title": "Burger King",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.5",
+              "size": "SPACING_UNIT_4X"
+          }
       },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"convenience/store/22926395/?pickup=false"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
       },
-      style: null,
-      layout: null,
-      custom:
-        '{"badges":[],"is_currently_available":true,"rating":{"average_rating":4.852394104003906,"display_num_ratings":"(750+)"},"savelists":[],"store_id":"22926395"}',
-      logging:
-        '{"asap_available":true,"asap_time":36,"badges":"","business_id":"11067770","business_vertical_id":"168","card_position":9,"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_name":"Local liquor stores","container_store_list_size":10,"delivery_fee_amount":0,"delivery_fee_str":"$0 delivery fee","display_image_type":"hero","display_image_url":"https://img.cdn4dd.com/cdn-cgi/image/fit=contain,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2/6fa518ea-c869-45d3-a312-8b1d84396274-retina-large.JPEG","express_eta_shown":false,"final_delivery_fee_line_str":"$​0 delivery fee","fulfillment_type":"DELIVERY","has_offer_badges":false,"is_cross_vertical":true,"is_sponsored":false,"minimum_subtotal_amount":0,"mor_breakdown_scores":"[]","next_close_time":"2024-01-27T03:00:00Z","next_open_time":"2024-01-26T15:42:26Z","num_star_rating":"752","page":"explore_page","pickup_eta_carousel_ranking_type":"lr15ed_with_dbp_weighted_distance","pickup_reorder_ranking_type":"DEFAULT","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","price_range":2,"request_id":"de17bd52-a213-430a-a3f3-fe9d3315aad5","savelist_store_link_ids":"","shows_dashpass_badging":true,"shows_store_address":false,"sr_multiplier":1,"star_rating":"4.852394","store_display_asap_time":"36 min","store_distance_in_miles":6.018205710621963,"store_id":"22926395","store_latitude":42.3074003,"store_longitude":-83.38782789999999,"store_name":"Wayne Med Market","store_prediction_score":0.07244683057069778,"store_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"store_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"store_primary_vertical_id":"170","vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-    {
-      id: "card.action:more:3d11fbe6-c027-4bb3-8def-916305d248bf",
-      childrenCount: 0,
-      component: {
-        id: "card.action",
-        category: "card",
-        __typename: "FacetV2Component",
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "2159e06e-bcbd-4d33-8f63-f1939629a822",
+      "title": {
+          "text": "KFC"
       },
-      name: null,
-      text: {
-        title: "More Stores",
-        titleTextAttributes: null,
-        subtitle: null,
-        subtitleTextAttributes: null,
-        accessory: null,
-        accessoryTextAttributes: null,
-        description: null,
-        descriptionTextAttributes: null,
-        custom: [],
-        __typename: "FacetV2Text",
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.1",
+          "accessibilityText": "Rated 4.1 out of 5 stars based on 85 reviews.",
+          "badgeType": "RATINGS"
       },
-      images: {
-        main: {
-          uri: null,
-          placeholder: null,
-          local: "arrow-right",
-          style: "UNSPECIFIED",
-          logging: null,
-          events: null,
-          __typename: "FacetV2Image",
-        },
-        icon: null,
-        background: null,
-        accessory: null,
-        custom: [],
-        __typename: "FacetV2Images",
+      "actionUrl": "/store/kfc-419-us-route-1/IVngbry9TTOPY_GTlimoIg",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b55ca7ad0268841e8dfe094d2326ba8e/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b55ca7ad0268841e8dfe094d2326ba8e/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b55ca7ad0268841e8dfe094d2326ba8e/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b55ca7ad0268841e8dfe094d2326ba8e/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b55ca7ad0268841e8dfe094d2326ba8e/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/b55ca7ad0268841e8dfe094d2326ba8e/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
       },
-      events: {
-        click: {
-          name: "navigate",
-          data: '{"domain":"https://www.doordash.com/","uri":"facet_feed/eyJvZmZzZXQiOjAsImNvbnRlbnRfaWRzIjpbIjI4NzkxNzUiLCIyNDc2NjAwMCIsIjIzMjMwMDgiLCIyOTA3MzM1IiwiMjMwNjUxOTkiLCIyNTkzOTE1NiIsIjI0MTUzNjgzIiwiMjM3NjAwOCIsIjIzMDI5NjIiLCIyMjkyNjM5NSJdLCJyZXF1ZXN0X3BhcmVudF9pZCI6IkRFRkFVTFRfSE9NRVBBR0UiLCJyZXF1ZXN0X2NoaWxkX2lkIjoiY2Fyb3VzZWwuc3RhbmRhcmQ6c3RvcmVfY2Fyb3VzZWw6M2QxMWZiZTYtYzAyNy00YmIzLThkZWYtOTE2MzA1ZDI0OGJmIiwicmVxdWVzdF9jaGlsZF9jb21wb25lbnRfaWQiOiJjYXJkLmFjdGlvbiIsImNyb3NzX3ZlcnRpY2FsX3BhZ2VfdHlwZSI6IkRFRkFVTFRfSE9NRVBBR0UiLCJwYWdlX3N0YWNrX3RyYWNlIjpbXSwidmVydGljYWxfaWRzIjpbXSwidmVydGljYWxfY29udGV4dF9pZCI6bnVsbCwibGF5b3V0X292ZXJyaWRlIjoiVU5TUEVDSUZJRUQiLCJzaW5nbGVfc3RvcmVfaWQiOm51bGwsInNlYXJjaF9pdGVtX2Nhcm91c2VsX2N1cnNvciI6bnVsbCwiY2F0ZWdvcnlfaWRzIjpbXSwiY29sbGVjdGlvbl9pZHMiOltdLCJkZF9wbGFjZV9pZHMiOlsiNWJiY2IxZWEtOTZmZC00YzEyLWI3YzktNzdmZDJhOWZmZDRkIl0sImlzX3BhZ2luYXRpb25fZmFsbGJhY2siOm51bGwsInNvdXJjZV9wYWdlX3R5cGUiOm51bGwsImJhc2VDdXJzb3IiOnsicGFnZV9pZCI6IjNkMTFmYmU2LWMwMjctNGJiMy04ZGVmLTkxNjMwNWQyNDhiZiIsInBhZ2VfdHlwZSI6IlNUT1JFX0NBUk9VU0VMX0xBTkRJTkciLCJjdXJzb3JfdmVyc2lvbiI6IkZBQ0VUIn0sInZlcnRpY2FsX25hbWVzIjp7fSwiaXRlbV9pZHMiOltdLCJtZXJjaGFudF9zdXBwbGllZF9pZHMiOltdLCJpc19vdXRfb2Zfc3RvY2siOm51bGwsIm1lbnVfaWQiOm51bGwsInRyYWNraW5nIjpudWxsLCJkaWV0YXJ5X3RhZyI6bnVsbCwib3JpZ2luX3RpdGxlIjpudWxsLCJyYW5rZWRfcmVtYWluaW5nX2NvbGxlY3Rpb25faWRzIjpudWxsLCJjdXJzb3JWZXJzaW9uIjoiRkFDRVRfQ09OVEVOVF9PRkZTRVQiLCJwYWdlSWQiOiIzZDExZmJlNi1jMDI3LTRiYjMtOGRlZi05MTYzMDVkMjQ4YmYiLCJwYWdlVHlwZSI6IlNUT1JFX0NBUk9VU0VMX0xBTkRJTkcifQ==/"}',
-          __typename: "FacetV2Action",
-        },
-        __typename: "FacetV2Events",
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "2159e06e-bcbd-4d33-8f63-f1939629a822",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.008581866393502263,
+                      "HmooScorePreSCR": 0.012542627582550049,
+                      "PredictionScore": 0.01253262758255005,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.6842159935803084,
+                      "conversion_rate_partial_score": 0.01092424988746643,
+                      "ctr_partial_score": 0.021646767854690552,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 21.655889543140262,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.843475341796875,
+                      "t120d_eyeball_count": 30648,
+                      "t120d_request_count": 1573,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.05101524069812925
+                  },
+                  "total": 0.008581866393502263
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 1.49,
+                  "dynamicBookingFeeTier": 3
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
       },
-      style: null,
-      layout: null,
-      custom: null,
-      logging:
-        '{"container":"cluster","container_id":"3d11fbe6-c027-4bb3-8def-916305d248bf","container_multiplier":1,"container_name":"Local liquor stores","container_predictor_model_ids":["store_ranker_v2_baseline_1","inflation_sr_multiplier_3_1","store_percentage_match_v0_8","exploration_ranker_for_sr_always_zero_1","universal_ranker_v4_delay_signal_v1_1","inflation_ur_multiplier_3_1","programmatic_boosting_multiplier_2022_06_03_18_15_16","impression_estimator_v1_2021_12_05_08_53_02"],"container_predictor_names":["feed_ranking_auto_trained","store_ranker_multiplier","store_percentage_match","store_ranker_exploration","universal_feed_ranking","universal_ranker_multiplier","feed_programmatic_boosting","ucb_uncertainty"],"container_score":0.013075260755812224,"is_cross_vertical":true,"mor_breakdown_scores":"[]","page":"explore_page","place_id":"5bbcb1ea-96fd-4c12-b7c9-77fd2a9ffd4d","programmatic_boost_multiplier":1.1799999475479126,"type":"see_all","ucb_uncertainty_score":0.009999999776482582,"ur_multiplier":1,"vertical_position":14}',
-      __typename: "FacetV2",
-      childrenMap: [],
-    },
-  ];
+      "mapMarker": {
+          "latitude": 40.5559,
+          "longitude": -74.3119,
+          "zIndex": 9992,
+          "description": {
+              "title": "KFC",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.1",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "98a9d02b-7b3e-4b06-b8c8-f0499954bd0c",
+      "title": {
+          "text": "Qdoba Mexican Eats"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.1",
+          "accessibilityText": "Rated 4.1 out of 5 stars based on 80 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/qdoba-mexican-eats-770-us-route-1-n/mKnQK3s-Swa4yPBJmVS9DA",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/a9dccca7-c169-47ae-891e-859292a167ee",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/b9d4caad-18c5-4539-9f9c-709526d1f2e4",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/a4af56be-c0f0-4899-8b6f-787318691df3",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/8f367add-40f8-4781-8a3b-c680016d51c3",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/7f978bec-c14e-4b96-ab1e-af6c01a8479e",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/8525fd28-7b67-447b-9f0e-28dafeb5fabf",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "98a9d02b-7b3e-4b06-b8c8-f0499954bd0c",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.007865067522235307,
+                      "HmooScorePreSCR": 0.01255877746105194,
+                      "PredictionScore": 0.01254877746105194,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.6262606011315148,
+                      "conversion_rate_partial_score": 0.010825663805007935,
+                      "ctr_partial_score": 0.022313088178634644,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 21.90765962978536,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8196142315864563,
+                      "t120d_eyeball_count": 35329,
+                      "t120d_request_count": 1654,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.04748604706320384
+                  },
+                  "total": 0.007865067522235307
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.49,
+                  "dynamicBookingFeeTier": 1
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5631,
+          "longitude": -74.2989,
+          "zIndex": 9991,
+          "description": {
+              "title": "Qdoba Mexican Eats",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.1",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "63ba030c-9f34-4d92-a712-0ce1727784de",
+      "title": {
+          "text": "Starbucks"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.3",
+          "accessibilityText": "Rated 4.3 out of 5 stars based on 35 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/starbucks-edison-rt-27/Y7oDDJ80TZKnEgzhcneE3g",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1a3b31740823e70f123f71df30ecfc01/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2840,
+                  "height": 2272
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1a3b31740823e70f123f71df30ecfc01/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1a3b31740823e70f123f71df30ecfc01/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1a3b31740823e70f123f71df30ecfc01/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1a3b31740823e70f123f71df30ecfc01/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1a3b31740823e70f123f71df30ecfc01/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": [
+          {
+              "backgroundColor": {
+                  "color": "#9F6402"
+              },
+              "text": "Spend $20, Save $7",
+              "textColor": {
+                  "color": "#FFFFFF"
+              }
+          }
+      ],
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "63ba030c-9f34-4d92-a712-0ce1727784de",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.007862184813295842,
+                      "HmooScorePreSCR": 0.015556840429306029,
+                      "PredictionScore": 0.01554684042930603,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.5053844223075677,
+                      "conversion_rate_partial_score": 0.012975513935089111,
+                      "ctr_partial_score": 0.030117690563201904,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 21.99401972892469,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8392735123634338,
+                      "t120d_eyeball_count": 4913,
+                      "t120d_request_count": 1008,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.11429307236617355
+                  },
+                  "total": 0.007862184813295842
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 1.99,
+                  "dynamicBookingFeeTier": 4
+              },
+              "promotionUUID": "1775a2c2-d5f1-46b2-a140-8f94e99138b8",
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN",
+              "offerMetadata": {
+                  "analyticsUUID": "11dc30f5-76a5-42fe-8575-f918ec812b4e",
+                  "promotionUUIDs": [
+                      "1775a2c2-d5f1-46b2-a140-8f94e99138b8"
+                  ],
+                  "offerTypeCount": 1,
+                  "concatSignpost": "store_promotion_badge"
+              }
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.557,
+          "longitude": -74.3432,
+          "zIndex": 9990,
+          "description": {
+              "title": "Starbucks",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.3",
+              "size": "SPACING_UNIT_4X"
+          },
+          "secondaryMarkerContent": {
+              "color": "CONTENT_POSITIVE",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_POSITIVE",
+              "icon": "TAG"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null,
+      "promotionConfiguration": {
+          "uberOnePromotionConfiguration": {}
+      }
+  },
+  {
+      "storeUuid": "218bc4eb-80a5-434f-928d-e9ca4d4e6edb",
+      "title": {
+          "text": "Five Guys"
+      },
+      "meta": [
+          {
+              "text": "$1.49 Delivery Fee",
+              "textFormat": "<span><span style=\"color:#3a3a48\">$1.49 Delivery Fee</span></span>",
+              "badgeType": "FARE",
+              "badgeData": {
+                  "fare": {
+                      "isSurge": false,
+                      "deliveryFee": "$1.49 Delivery Fee",
+                      "serviceFee": ""
+                  },
+                  "type": "fare"
+              }
+          },
+          {
+              "text": "30 min",
+              "accessibilityText": "Delivered in 30 to 30 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.8",
+          "accessibilityText": "A top rated restaurant with 4.8 out of 5 stars based on 96 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/five-guys-21-east-broad-st-nj-465/IYvE64ClQ0-SjenKTU5u2w",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://duyt4h9nfnj50.cloudfront.net/resized/bulk_actions_image_0d0e0a15-9ce7-4b87-abd2-c2d0453ec4ba-w240-a9.jpg",
+                  "width": 240,
+                  "height": 192
+              },
+              {
+                  "url": "https://duyt4h9nfnj50.cloudfront.net/resized/bulk_actions_image_0d0e0a15-9ce7-4b87-abd2-c2d0453ec4ba-w550-94.jpg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://duyt4h9nfnj50.cloudfront.net/resized/bulk_actions_image_0d0e0a15-9ce7-4b87-abd2-c2d0453ec4ba-w640-49.jpg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://duyt4h9nfnj50.cloudfront.net/resized/bulk_actions_image_0d0e0a15-9ce7-4b87-abd2-c2d0453ec4ba-w750-f3.jpg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://duyt4h9nfnj50.cloudfront.net/resized/bulk_actions_image_0d0e0a15-9ce7-4b87-abd2-c2d0453ec4ba-w1080-d1.jpg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://duyt4h9nfnj50.cloudfront.net/resized/bulk_actions_image_0d0e0a15-9ce7-4b87-abd2-c2d0453ec4ba-w2880-a1.jpg",
+                  "width": 2880,
+                  "height": 2304
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "218bc4eb-80a5-434f-928d-e9ca4d4e6edb",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.007088869513877009,
+                      "HmooScorePreSCR": 0.011995033750534057,
+                      "PredictionScore": 0.011985033750534058,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.5909837071997726,
+                      "conversion_rate_partial_score": 0.011722087860107422,
+                      "ctr_partial_score": 0.01347506046295166,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 25.80795576949506,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.9371997117996216,
+                      "t120d_eyeball_count": 24890,
+                      "t120d_request_count": 2038,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.057885791391622705
+                  },
+                  "total": 0.007088869513877009
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 30,
+                      "max": 30,
+                      "raw": 30
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 1.49,
+                  "dynamicBookingFeeTier": 3
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.6505,
+          "longitude": -74.3498,
+          "zIndex": 9989,
+          "description": {
+              "title": "Five Guys",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.8",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "9d26ee45-cbac-4969-bb84-bd4a95126eeb",
+      "title": {
+          "text": "McDonald's®"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "15 min",
+              "accessibilityText": "Delivered in 15 to 15 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.2",
+          "accessibilityText": "Rated 4.2 out of 5 stars based on 20 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/mcdonalds-59-hwy-27/nSbuRcusSWm7hL1KlRJu6w",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/46cce24df30274c9bb5de6b9f7a3bab0/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/46cce24df30274c9bb5de6b9f7a3bab0/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/46cce24df30274c9bb5de6b9f7a3bab0/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/46cce24df30274c9bb5de6b9f7a3bab0/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/46cce24df30274c9bb5de6b9f7a3bab0/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/46cce24df30274c9bb5de6b9f7a3bab0/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "9d26ee45-cbac-4969-bb84-bd4a95126eeb",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.007013663624509404,
+                      "HmooScorePreSCR": 0.01585174335002899,
+                      "PredictionScore": 0.01584174335002899,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.44245377114918893,
+                      "conversion_rate_partial_score": 0.014580488204956055,
+                      "ctr_partial_score": 0.022988855838775635,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 22.339131094485175,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8843086957931519,
+                      "t120d_eyeball_count": 5114,
+                      "t120d_request_count": 421,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.11098175254549539
+                  },
+                  "total": 0.007013663624509404
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 15,
+                      "max": 15,
+                      "raw": 15
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 2.99,
+                  "dynamicBookingFeeTier": 6
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5573,
+          "longitude": -74.3429,
+          "zIndex": 9988,
+          "description": {
+              "title": "McDonald's®",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.2",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "b379dc00-e206-57bf-b6d9-90107479eb82",
+      "title": {
+          "text": "Pizza Hut"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "20 min",
+              "accessibilityText": "Delivered in 20 to 20 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.4",
+          "accessibilityText": "Rated 4.4 out of 5 stars based on more than 100 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/pizza-hut-1236-st-georges-ave/s3ncAOIGV7-22ZAQdHnrgg",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/02158f32ec6409e2b36f2bd8a5646db4/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/02158f32ec6409e2b36f2bd8a5646db4/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/02158f32ec6409e2b36f2bd8a5646db4/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/02158f32ec6409e2b36f2bd8a5646db4/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/02158f32ec6409e2b36f2bd8a5646db4/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/02158f32ec6409e2b36f2bd8a5646db4/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "b379dc00-e206-57bf-b6d9-90107479eb82",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.006913388872487874,
+                      "HmooScorePreSCR": 0.013107713887691497,
+                      "PredictionScore": 0.013097713887691497,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.5274290339049692,
+                      "conversion_rate_partial_score": 0.011026471853256226,
+                      "ctr_partial_score": 0.024834752082824707,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 30.103905793777038,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8611574172973633,
+                      "t120d_eyeball_count": 52237,
+                      "t120d_request_count": 2889,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.03822675340463358
+                  },
+                  "total": 0.006913388872487874
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 20,
+                      "max": 20,
+                      "raw": 20
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.49,
+                  "dynamicBookingFeeTier": 1
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5808,
+          "longitude": -74.2936,
+          "zIndex": 9987,
+          "description": {
+              "title": "Pizza Hut",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.4",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "50f20d12-f4ca-46d7-8fa8-f77fa18f8d75",
+      "title": {
+          "text": "White Castle"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "20 min",
+              "accessibilityText": "Delivered in 20 to 20 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.5",
+          "accessibilityText": "A top rated restaurant with 4.5 out of 5 stars based on more than 100 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/white-castle-8-lafayette-rd/UPINEvTKRtePqPd_oY-NdQ",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/54b8fc70-c858-4aba-95cd-a6143020f02f.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/a86727e4-fbbc-4b1c-b253-ba46663d39ee.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/c4f847de-c12d-4757-ba88-1c43efe0c05a.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/2c7558ad-6055-40e7-9f83-7bf09e80645a.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/f429e79e-2bfa-46cb-beb0-b96afdf35ff0.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://d1ralsognjng37.cloudfront.net/44f3a73a-c882-4f02-8185-02224afcf6b7.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "50f20d12-f4ca-46d7-8fa8-f77fa18f8d75",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.0064933057047055565,
+                      "HmooScorePreSCR": 0.011169069836139679,
+                      "PredictionScore": 0.011159069836139679,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.5813649480187879,
+                      "conversion_rate_partial_score": 0.009456068277359009,
+                      "ctr_partial_score": 0.020809412002563477,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 22.887441384554144,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8049968481063843,
+                      "t120d_eyeball_count": 39999,
+                      "t120d_request_count": 1655,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.04732621000784091
+                  },
+                  "total": 0.0064933057047055565
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 20,
+                      "max": 20,
+                      "raw": 20
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.49,
+                  "dynamicBookingFeeTier": 1
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5467,
+          "longitude": -74.3288,
+          "zIndex": 9986,
+          "description": {
+              "title": "White Castle",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.5",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "02ce8e4b-9a68-560d-b971-30dc2d7b6501",
+      "title": {
+          "text": "Chili's Grill & Bar"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "20 min",
+              "accessibilityText": "Delivered in 20 to 20 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.4",
+          "accessibilityText": "Rated 4.4 out of 5 stars based on 45 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/chilis-grill-%26-bar-1655-oaktree-rd/As6OS5poVg25cTDcLXtlAQ",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f68de7f26f1de66bca8f2a528e22c1b0/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f68de7f26f1de66bca8f2a528e22c1b0/719c6bd2757b08684c0faae44d43159d.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f68de7f26f1de66bca8f2a528e22c1b0/93b5fd796682c6d5302cd5bec164fe90.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f68de7f26f1de66bca8f2a528e22c1b0/97e6648b3593c29cb4a6335f976e6d84.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f68de7f26f1de66bca8f2a528e22c1b0/a70f5c9df440d10213e93244e9eb7cad.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f68de7f26f1de66bca8f2a528e22c1b0/97ef7458dde62fa918635bc21265d9f5.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "02ce8e4b-9a68-560d-b971-30dc2d7b6501",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.006266947986714556,
+                      "HmooScorePreSCR": 0.009486704895496368,
+                      "PredictionScore": 0.009476704895496369,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.660603239559994,
+                      "conversion_rate_partial_score": 0.008159279823303223,
+                      "ctr_partial_score": 0.016942113637924194,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 32.408628472867186,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8827974796295166,
+                      "t120d_eyeball_count": 28353,
+                      "t120d_request_count": 1043,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.060994065696086376
+                  },
+                  "total": 0.006266947986714556
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 20,
+                      "max": 20,
+                      "raw": 20
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.99,
+                  "dynamicBookingFeeTier": 2
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5721,
+          "longitude": -74.341,
+          "zIndex": 9985,
+          "description": {
+              "title": "Chili's Grill & Bar",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.4",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "7fa9f28b-5507-515a-92e8-c59a5ce3436e",
+      "title": {
+          "text": "Domino's Pizza"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "25–45 min",
+              "accessibilityText": "Delivered in 25 to 45 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "actionUrl": "/store/dominos-pizza-135-state-route-27/f6nyi1UHUVqS6MWaXONDbg",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/aa509e025d620f8a2d875e794facf56c/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/aa509e025d620f8a2d875e794facf56c/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/aa509e025d620f8a2d875e794facf56c/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/aa509e025d620f8a2d875e794facf56c/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/aa509e025d620f8a2d875e794facf56c/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/aa509e025d620f8a2d875e794facf56c/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "7fa9f28b-5507-515a-92e8-c59a5ce3436e",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.0060837767294409945,
+                      "HmooScorePreSCR": 0.010406170616149901,
+                      "PredictionScore": 0.010396170616149902,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.5846316530693098,
+                      "conversion_rate_partial_score": 0.009078741073608398,
+                      "ctr_partial_score": 0.017861604690551758,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 26.161062916465212,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8365789651870728,
+                      "t120d_eyeball_count": 4047,
+                      "t120d_request_count": 158,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.15395977917331058
+                  },
+                  "total": 0.0060837767294409945
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 25,
+                      "max": 45,
+                      "raw": 25
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.99,
+                  "dynamicBookingFeeTier": -1
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5607,
+          "longitude": -74.3382,
+          "zIndex": 9984,
+          "description": {
+              "title": "Domino's Pizza",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "icon": "RESTAURANT",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "940324b0-ad3c-4e29-acaf-4dd0634a2352",
+      "title": {
+          "text": "Panera"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "30 min",
+              "accessibilityText": "Delivered in 30 to 30 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.7",
+          "accessibilityText": "A top rated restaurant with 4.7 out of 5 stars based on 58 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/panera-1551-us-highway-1/lAMksK08Timsr03QY0ojUg",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/c74563d037f9a5858e9333f7bbee5e53/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/c74563d037f9a5858e9333f7bbee5e53/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/c74563d037f9a5858e9333f7bbee5e53/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/c74563d037f9a5858e9333f7bbee5e53/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/c74563d037f9a5858e9333f7bbee5e53/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/c74563d037f9a5858e9333f7bbee5e53/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "940324b0-ad3c-4e29-acaf-4dd0634a2352",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.005966562683705912,
+                      "HmooScorePreSCR": 0.0086656077003479,
+                      "PredictionScore": 0.0086556077003479,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.6885336712699758,
+                      "conversion_rate_partial_score": 0.00785684585571289,
+                      "ctr_partial_score": 0.013181924819946289,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 26.812341870999415,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8795397877693176,
+                      "t120d_eyeball_count": 13908,
+                      "t120d_request_count": 1018,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.09110604633611719
+                  },
+                  "total": 0.005966562683705912
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 30,
+                      "max": 30,
+                      "raw": 30
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.99,
+                  "dynamicBookingFeeTier": 2
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5458,
+          "longitude": -74.3309,
+          "zIndex": 9983,
+          "description": {
+              "title": "Panera",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.7",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "dbd40909-d795-4049-9a1d-a6a1341773d7",
+      "title": {
+          "text": "Papa Johns Pizza"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "20 min",
+              "accessibilityText": "Delivered in 20 to 20 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.5",
+          "accessibilityText": "A top rated restaurant with 4.5 out of 5 stars based on 55 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/papa-johns-pizza-52-lincoln-hwy/29QJCdeVQEmaHaahNBdz1w",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7f5ea51a53247f3cba509ccb665b88fc/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                  "width": 1603,
+                  "height": 1283
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7f5ea51a53247f3cba509ccb665b88fc/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7f5ea51a53247f3cba509ccb665b88fc/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7f5ea51a53247f3cba509ccb665b88fc/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7f5ea51a53247f3cba509ccb665b88fc/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7f5ea51a53247f3cba509ccb665b88fc/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "dbd40909-d795-4049-9a1d-a6a1341773d7",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.0054181274935900655,
+                      "HmooScorePreSCR": 0.00949871374130249,
+                      "PredictionScore": 0.009488713741302491,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.5704064404037,
+                      "conversion_rate_partial_score": 0.008385002613067627,
+                      "ctr_partial_score": 0.01574307680130005,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 23.291673492152675,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.8867007493972778,
+                      "t120d_eyeball_count": 14748,
+                      "t120d_request_count": 1022,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.08450216990027523
+                  },
+                  "total": 0.0054181274935900655
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 20,
+                      "max": 20,
+                      "raw": 20
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 1.49,
+                  "dynamicBookingFeeTier": 1
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.5573,
+          "longitude": -74.3438,
+          "zIndex": 9982,
+          "description": {
+              "title": "Papa Johns Pizza",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.5",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  },
+  {
+      "storeUuid": "cd042e30-b88a-4fb6-871b-910c2585063d",
+      "title": {
+          "text": "Moe's Southwest Grill"
+      },
+      "meta": [
+          {
+              "text": "$0 Delivery Fee",
+              "textFormat": "<span style=\"color:#9F6402\"><img src=\"https://dkl8of78aprwd.cloudfront.net/uber_one@3x.png\" width=\"14\" height=\"14\" vertical-align=\"middle\"/> $0 Delivery Fee</span>",
+              "badgeType": "MembershipBenefit",
+              "badgeDataWithFallback": {
+                  "membership": {
+                      "brandingType": "UBER_ONE"
+                  },
+                  "type": "membership"
+              }
+          },
+          {
+              "text": "25 min",
+              "accessibilityText": "Delivered in 25 to 25 min",
+              "badgeType": "ETD"
+          }
+      ],
+      "rating": {
+          "text": "4.6",
+          "accessibilityText": "A top rated restaurant with 4.6 out of 5 stars based on 47 reviews.",
+          "badgeType": "RATINGS"
+      },
+      "actionUrl": "/store/moes-southwest-grill-linden/zQQuMLiKT7aHG5EMJYUGPQ",
+      "favorite": false,
+      "image": {
+          "items": [
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/4edee31095880378a0f4c047274f04be/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
+                  "width": 2880,
+                  "height": 2304
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/4edee31095880378a0f4c047274f04be/719c6bd2757b08684c0faae44d43159d.jpeg",
+                  "width": 1080,
+                  "height": 864
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/4edee31095880378a0f4c047274f04be/93b5fd796682c6d5302cd5bec164fe90.jpeg",
+                  "width": 750,
+                  "height": 600
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/4edee31095880378a0f4c047274f04be/97e6648b3593c29cb4a6335f976e6d84.jpeg",
+                  "width": 640,
+                  "height": 512
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/4edee31095880378a0f4c047274f04be/a70f5c9df440d10213e93244e9eb7cad.jpeg",
+                  "width": 550,
+                  "height": 440
+              },
+              {
+                  "url": "https://tb-static.uber.com/prod/image-proc/processed_images/4edee31095880378a0f4c047274f04be/97ef7458dde62fa918635bc21265d9f5.jpeg",
+                  "width": 240,
+                  "height": 192
+              }
+          ]
+      },
+      "signposts": null,
+      "tracking": {
+          "metaInfo": {
+              "pluginName": "recommendationFeedPlugin",
+              "analyticsLabel": "national_favorites",
+              "verticalType": "UNKNOWN",
+              "category": "",
+              "subcategory": "",
+              "surfaceAreaV2": "HOME_FEED"
+          },
+          "storePayload": {
+              "storeUUID": "cd042e30-b88a-4fb6-871b-910c2585063d",
+              "isOrderable": true,
+              "score": {
+                  "breakdown": {
+                      "ConversionRate_boosting_factor": 1,
+                      "FinalScore": 0.00516265397283729,
+                      "HmooScorePreSCR": 0.008371542224884032,
+                      "PredictionScore": 0.008361542224884033,
+                      "StoreCarouselRelevanceFactor": 1,
+                      "StoreCarouselRelevanceScore": 0.6166909076193312,
+                      "conversion_rate_partial_score": 0.007327228784561157,
+                      "ctr_partial_score": 0.014222651720046997,
+                      "net_inflow_boosting_factor": 0,
+                      "net_inflow_partial_score": 23.4814614129741,
+                      "service_quality_boosting_factor": 0,
+                      "service_quality_partial_score": 0.9201980829238892,
+                      "t120d_eyeball_count": 28578,
+                      "t120d_request_count": 1284,
+                      "ucb_bandit_boosting_factor": 0,
+                      "ucb_bandit_partial_score": 0.06467811050957933
+                  },
+                  "total": 0.00516265397283729
+              },
+              "etdInfo": {
+                  "dropoffETARange": {
+                      "min": 25,
+                      "max": 25,
+                      "raw": 25
+                  }
+              },
+              "fareInfo": {
+                  "serviceFee": 0.99,
+                  "dynamicBookingFeeTier": 2
+              },
+              "scheduleTimeSlots": null,
+              "isDBF": true,
+              "storeAvailablityState": "UNKNOWN"
+          }
+      },
+      "mapMarker": {
+          "latitude": 40.6126,
+          "longitude": -74.255,
+          "zIndex": 9981,
+          "description": {
+              "title": "Moe's Southwest Grill",
+              "color": "CONTENT_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedColor": "CONTENT_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+          },
+          "markerContent": {
+              "color": "CONTENT_PRIMARY",
+              "selectedColor": "CONTENT_INVERSE_PRIMARY",
+              "backgroundColor": "BACKGROUND_PRIMARY",
+              "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+              "text": "4.6",
+              "size": "SPACING_UNIT_4X"
+          }
+      },
+      "meta2": null,
+      "storyIconPayload": {
+          "isIconVisible": false
+      },
+      "endorsements": null,
+      "meta4": null
+  }
+];
