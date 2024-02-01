@@ -1,29 +1,46 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ResCard from "./ResCard";
 import { stores } from "../utils/mockData";
+import ShimmerUI from "./ShimmerUI";
 
  
 
 
 const Body=()=>{
   const [dataList,setDataList]=useState(stores);
-  console.log(dataList)
+  let [apiData,setApiData]=useState([]);
+
+   useEffect(()=>{
+      fetchData();
+   },[])
+
+   const fetchData= async()=>{
+      let data= await fetch("https://dummyjson.com/recipes");
+     
+      data=await data.json();
+      setApiData(data?.recipes);
+   }
+   console.log(apiData);
+  console.log(dataList);
+  if(apiData.length===0){
+    return <ShimmerUI/>
+  }
     return (
       <div className='body'>
           <div className='filter'> 
           <button className="filter-btn" 
           onClick={()=>{
-           let dataList1=dataList.filter((data)=>data?.rating?.text>4.5);
+           let dataList1=apiData.filter((data)=>data?.rating>4.5);
             console.log(dataList1)
-            setDataList(dataList1);
+            setApiData(dataList1);
           }}
           >
-            Top Rated Restaurants
+            Top Rated Recipies
           </button>
           </div>
           <div className='res-container'>
-           {dataList.map((resData)=>
-           <ResCard key={resData.storeUuid} restaData={resData}
+           {apiData.map((resData)=>
+           <ResCard key={resData.id} restaData={resData}
            
            />)}
           
