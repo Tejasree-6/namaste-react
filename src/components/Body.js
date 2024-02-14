@@ -3,6 +3,7 @@ import ResCard from "./ResCard";
 import { stores } from "../utils/mockData";
 import ShimmerUI from "./ShimmerUI";
 import PageNotFound from "./PageNotFound";
+import { Link } from "react-router-dom";
 
  
 
@@ -55,10 +56,8 @@ const Body=()=>{
           </button>
           </div>
           <div className='res-container'>
-           {filteredData.map((resData)=>
-           <ResCard key={resData.id} restaData={resData}
-           
-           />)}
+           {filteredData.map((resData)=>(
+           <Link to={"/recipe/"+resData.id} key={resData.id}><ResCard  restaData={resData} /></Link>))}
           
   
           </div>

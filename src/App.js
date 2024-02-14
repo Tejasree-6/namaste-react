@@ -2,19 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider,Outlet} from "react-router-dom";
 import About from "./components/About";
 import ContactUs from "./components/ContactUs";
 import PageNotFound from "./components/PageNotFound";
 import Error from "./components/Error";
+import RecipePage from "./components/RecipePage";
 
 
 const AppLayout = () => {
   return (
     <div className="app">
       <Header />
-
-      <Body />
+      <Outlet/>
     </div>
   );
 };
@@ -22,20 +22,31 @@ const appRouter=createBrowserRouter([
   {
     path:"/",
     element:<AppLayout/>,
+    children:[
+      {
+      path:"/",
+      element:<Body/>
+    },
+      {
+        path:"/about",
+        element:<About/>
+      },
+      {
+        path:"/contact",
+        element:<ContactUs/>
+      },
+      {
+        path:"/pagenotfound",
+        element:<PageNotFound/>
+      },
+      {
+        path:"/recipe/:rId",
+        element:<RecipePage/>
+      }
+    ],
     errorElement:<Error/>
   },
-  {
-    path:"/about",
-    element:<About/>
-  },
-  {
-    path:"/contact",
-    element:<ContactUs/>
-  },
-  {
-    path:"/pagenotfound",
-    element:<PageNotFound/>
-  }
+  
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter}/>);
