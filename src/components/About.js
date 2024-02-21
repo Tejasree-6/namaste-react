@@ -1,8 +1,13 @@
+import User from "./User";
+import UserClass from "./UserClass";
+
 const About=()=>{
     return(
         <div>
             <h1>About</h1>
-            <h2>Welcome </h2>
+            
+            <User name={"Teja (Function)"}/>
+            <UserClass name={"Teja (Class)"}/>
         </div>
     )
 }
