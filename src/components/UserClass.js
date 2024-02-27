@@ -12,13 +12,21 @@ class UserClass extends React.Component{
             }
         }
     }
+
+  
     async componentDidMount(){
+       this.timer= setInterval(()=>{
+            console.log("set interval after every sec")
+        },1000);
         console.log(this.props.name+"Child ComponentDidMount")
         const data=await fetch("https://api.github.com/users/Tejasree-6");
         const json=await data.json();
        this.setState({
         userInfo:json
        })
+    }
+    componentWillUnmount(){
+        clearInterval(this.timer);
     }
     render(){
         console.log(this.props.name+"Child render")
