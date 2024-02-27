@@ -1,22 +1,10 @@
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import useRecipePage from "../utils/useRecipePage";
 const RecipePage=()=>{
-  
-    const[apiData,setApiData]=useState([]);
-    const {rId}=useParams();
-   console.log(rId)
-    useEffect(()=>{
-        fetchData();
-    },[])
-   const fetchData=async()=>{
-    let data=await fetch("https://dummyjson.com/recipes");
-    data=await data.json();
-    setApiData(data?.recipes)
-   }
+  const {rId}=useParams();
+  const apiData=useRecipePage();
     return (
-     
-        <div>
-            {console.log(apiData)}
+             <div>
             <h1>{apiData[rId-1]?.name}</h1>
             <h2>Ingredients:{apiData[rId-1]?.ingredients.join(",")}</h2>
             <h3>Instructions:{apiData[rId-1]?.instructions.join(" ")}</h3>

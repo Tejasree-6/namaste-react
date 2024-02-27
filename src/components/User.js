@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const User=(props)=>{
     const {name}=props;
 
-      useEffect(async ()=>{
+      useEffect( ()=>{
         const timer=setInterval(()=>{
             console.log(" Timer FC")
         },1000)
