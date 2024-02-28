@@ -16,8 +16,8 @@ class About extends Component{
             <div>
                 <h1>About</h1>
                 
-                <User name={"Teja (Function)"}/>
-                {/* <UserClass name={"First (Class)"}/> */}
+                {/* <User name={"Teja (Function)"}/> */}
+                <UserClass name={"First (Class)"}/>
            
             </div>
         )

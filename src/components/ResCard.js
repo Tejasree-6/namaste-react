@@ -1,9 +1,7 @@
-import RecipePage from "./RecipePage";
-
 const ResCard=(props)=>{
     const {restaData}=props;
  
-    
+   
      return (
        <div className='res-card'>
          <img alt='Biryani logo' className='res-logo' src={restaData?.image} onClick={()=>{

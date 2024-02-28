@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 import ResCard from "./ResCard";
 import { stores } from "../utils/mockData";
 import ShimmerUI from "./ShimmerUI";
-import PageNotFound from "./PageNotFound";
+
 import { Link } from "react-router-dom";
 
- 
+ import useOnlineStatus from "../utils/useOnlineStatus";
 
 
 const Body=()=>{
-  const [dataList,setDataList]=useState(stores);
+ 
   let [apiData,setApiData]=useState([]);
   let [filteredData,setFilteredData]=useState([]);
   const [searchText, setSearchText]=useState("");
@@ -27,6 +27,8 @@ const Body=()=>{
    }
   // console.log("api data from use effect",apiData)
   console.log("Body rendered")
+  const onlineStatus=useOnlineStatus();
+  if(onlineStatus===false) return <h1>Looks like You're offline!!! Please check your internet connection...</h1>
     return apiData.length===0? <ShimmerUI/>:(
       <div className='body'>
           <div className='filter'> 
