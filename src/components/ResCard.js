@@ -19,3 +19,18 @@ const ResCard=(props)=>{
    }
    export default ResCard;
     
+  // create a higher oder component which will take ResCard as the input and it returns me a new component which is a enhanced ResCard which has a lable on top of it 
+  // input - ResCard ==>> ResCardLable 
+
+  // this HOF is a function which takes in ResCard as i/p & it will return another component 
+
+  export const WithLabel=(ResCard)=>{
+    return(props)=>{
+      return(
+        <div>
+          <label className="  absolute bg-black text-white m-2 p-2 rounded-lg">{props.restaData.difficulty}</label>
+          <ResCard {...props}/>
+        </div>
+      )
+    }
+  }

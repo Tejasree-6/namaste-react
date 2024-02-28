@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ResCard from "./ResCard";
+import ResCard, {WithLabel}from "./ResCard";
 import { stores } from "../utils/mockData";
 import ShimmerUI from "./ShimmerUI";
 
@@ -26,6 +26,7 @@ const Body=()=>{
       setFilteredData(data?.recipes);
    }
   // console.log("api data from use effect",apiData)
+  const ResCardLabel=WithLabel(ResCard);
   console.log("Body rendered")
   const onlineStatus=useOnlineStatus();
   if(onlineStatus===false) return <h1>Looks like You're offline!!! Please check your internet connection...</h1>
@@ -36,7 +37,7 @@ const Body=()=>{
               <input type="text" className="border  border-solid border-black " value={searchText} onChange={(e)=>{
                     setSearchText(e.target.value);
               }}/>
-              <button className="ml-12 px-4 py-2 m-2 bg-green-100 hover:bg-green-400 rounded-lg" onClick={()=>{
+              <button className="ml-12 px-4 py-2 m-2 bg-green-50 hover:bg-green-400 rounded-lg" onClick={()=>{
            
               const filteredData1=  apiData.filter((data)=>data.name.toLowerCase().includes(searchText.toLocaleLowerCase()));
               //  setApiData(filteredData);
@@ -62,7 +63,10 @@ const Body=()=>{
           </div>
           <div className='flex flex-wrap rounded-lg'>
            {filteredData.map((resData)=>(
-           <Link to={"/recipe/"+resData.id} key={resData.id}><ResCard  restaData={resData} /></Link>))}
+           <Link to={"/recipe/"+resData.id} key={resData.id}>
+            {resData.difficulty==="Easy"? <ResCardLabel restaData={resData}/> :<ResCard  restaData={resData}/> }
+             
+            </Link>))}
           
   
           </div>
