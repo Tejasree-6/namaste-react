@@ -8,6 +8,9 @@ import ContactUs from "./components/ContactUs";
 import PageNotFound from "./components/PageNotFound";
 import Error from "./components/Error";
 import RecipePage from "./components/RecipePage";
+import Cart from "./components/Cart";
+import Login from "./components/Login";
+
 // import Grocery from "./components/Grocery";
 
 const Grocery=lazy(()=> import("./components/Grocery"));
@@ -47,6 +50,14 @@ const appRouter=createBrowserRouter([
       {
         path:"/recipe/:rId",
         element:<RecipePage/>
+      },
+      {
+        path:"/cart",
+        element:<Cart/>
+      },
+      {
+        path:"/login",
+        element:<Login/>
       }
     ],
     errorElement:<Error/>

@@ -32,18 +32,13 @@ class UserClass extends React.Component{
         console.log(this.props.name+"Child render")
         const {name,avatar_url}=this.state.userInfo;
         return(
-            <div className="user-card">
-            <u><h1>User profile</h1></u>
-            <img className="user-profile" src={avatar_url}/>
-            <h2>Name: {name}</h2>
-            <h2>Location: New Jersey</h2>
-            <h2>Email: tejasree6633@gmail.com</h2>
-            <button onClick={()=>{
-                this.setState({
-                    count:this.state.count+1
-                })
-            }}>Count</button>
-            <h1>Count: {this.state.count}</h1>
+            <div className="p-4 m-4">
+            <u><h1 className="mb-4 font-bold text-2xl">User profile</h1></u>
+            <img className="w-40 h-40 border-solid rounded-full mb-4" src={avatar_url}/>
+            <h2 className="text-lg font-semibold">Name: {name}</h2>
+            <h2 className="text-lg font-semibold">Location: New Jersey</h2>
+            <h2 className="text-lg font-semibold">Email: tejasree6633@gmail.com</h2>
+            
             </div>
         )
     }

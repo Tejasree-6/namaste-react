@@ -31,12 +31,12 @@ const Body=()=>{
   if(onlineStatus===false) return <h1>Looks like You're offline!!! Please check your internet connection...</h1>
     return apiData.length===0? <ShimmerUI/>:(
       <div className='body'>
-          <div className='filter'> 
-          <div className="search">
-              <input type="text" className="search-box" value={searchText} onChange={(e)=>{
+          <div className='flex'> 
+          <div className="m-4 p-4">
+              <input type="text" className="border  border-solid border-black " value={searchText} onChange={(e)=>{
                     setSearchText(e.target.value);
               }}/>
-              <button onClick={()=>{
+              <button className="ml-12 px-4 py-2 m-2 bg-green-100 hover:bg-green-400 rounded-lg" onClick={()=>{
            
               const filteredData1=  apiData.filter((data)=>data.name.toLowerCase().includes(searchText.toLocaleLowerCase()));
               //  setApiData(filteredData);
@@ -47,17 +47,20 @@ const Body=()=>{
                 console.log(filteredData1)
               }}>Search</button>
           </div>
-          <button className="filter-btn" 
+          <div className="flex items-center">
+          <button className=" px-4 py-2 m-2 bg-gray-100 hover:bg-gray-400 rounded-lg" 
           onClick={()=>{
            let dataList1=apiData.filter((data)=>data?.rating>4.5);
             console.log(dataList1)
-            setApiData(dataList1);
+            setFilteredData(dataList1);
           }}
           >
             Top Rated Recipies
           </button>
           </div>
-          <div className='res-container'>
+          
+          </div>
+          <div className='flex flex-wrap rounded-lg'>
            {filteredData.map((resData)=>(
            <Link to={"/recipe/"+resData.id} key={resData.id}><ResCard  restaData={resData} /></Link>))}
           

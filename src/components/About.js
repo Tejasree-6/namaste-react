@@ -13,8 +13,8 @@ class About extends Component{
     render(){
         console.log("Parent render")
         return(
-            <div>
-                <h1>About</h1>
+            <div >
+                {/* <h1 className="m-4 p-4">About</h1> */}
                 
                 {/* <User name={"Teja (Function)"}/> */}
                 <UserClass name={"First (Class)"}/>
