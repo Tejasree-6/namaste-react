@@ -11,6 +11,7 @@ import RecipePage from "./components/RecipePage";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
 
+
 // import Grocery from "./components/Grocery";
 
 const Grocery=lazy(()=> import("./components/Grocery"));
@@ -58,7 +59,8 @@ const appRouter=createBrowserRouter([
       {
         path:"/login",
         element:<Login/>
-      }
+      },
+     
     ],
     errorElement:<Error/>
   },

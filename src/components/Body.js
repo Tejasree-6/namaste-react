@@ -64,7 +64,7 @@ const Body=()=>{
           <div className='flex flex-wrap rounded-lg'>
            {filteredData.map((resData)=>(
            <Link to={"/recipe/"+resData.id} key={resData.id}>
-            {resData.difficulty==="Easy"? <ResCardLabel restaData={resData}/> :<ResCard  restaData={resData}/> }
+            {resData.difficulty==="Easy" || resData.difficulty==="Medium" ? <ResCardLabel restaData={resData}/> :<ResCard  restaData={resData}/> }
              
             </Link>))}
           
