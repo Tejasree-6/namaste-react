@@ -25,9 +25,9 @@ const Body=()=>{
       setApiData(data?.recipes);
       setFilteredData(data?.recipes);
    }
-  // console.log("api data from use effect",apiData)
+  
   const ResCardLabel=WithLabel(ResCard);
-  console.log("Body rendered")
+
   const onlineStatus=useOnlineStatus();
   if(onlineStatus===false) return <h1>Looks like You're offline!!! Please check your internet connection...</h1>
     return apiData.length===0? <ShimmerUI/>:(
@@ -42,17 +42,17 @@ const Body=()=>{
               const filteredData1=  apiData.filter((data)=>data.name.toLowerCase().includes(searchText.toLocaleLowerCase()));
               //  setApiData(filteredData);
                 {if(filteredData1.length==0){
-                  console.log("page not found");
+                 
                   return <ShimmerUI/>;
                 }else setFilteredData(filteredData1)}
-                console.log(filteredData1)
+                
               }}>Search</button>
           </div>
           <div className="flex items-center">
           <button className=" px-4 py-2 m-2 bg-gray-100 hover:bg-gray-400 rounded-lg" 
           onClick={()=>{
            let dataList1=apiData.filter((data)=>data?.rating>4.5);
-            console.log(dataList1)
+         
             setFilteredData(dataList1);
           }}
           >

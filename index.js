@@ -6,7 +6,7 @@ const calculateArea= function (radius){
     }
     return output;
 }
-console.log(calculateArea(radius));
+
 
 const area=function(radius){
     return Math.PI * radius * radius;

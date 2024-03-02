@@ -5,13 +5,11 @@ import UserClass from "./UserClass";
 class About extends Component{
     constructor(){
         super()
-        console.log("Parent Construcor")
+       
     }
-    componentDidMount(){
-        console.log("Parent ComponentDidMount")
-    }
+   
     render(){
-        console.log("Parent render")
+       
         return(
             <div >
                 {/* <h1 className="m-4 p-4">About</h1> */}

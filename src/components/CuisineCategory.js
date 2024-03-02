@@ -1,19 +1,20 @@
 import { useState } from "react";
 import Cuisine from "./Cuisine";
 
-const CuisineCategory=(resData)=>{
-    console.log(resData)
-    const [showAccordian,setShowAccordian]=useState(false);
+const CuisineCategory=({resData,showItems,setShowIndex})=>{
+  
+   
     const handleClick=()=>{
-      setShowAccordian(!showAccordian);
+    //   setShowAccordian(!showAccordian);
+    setShowIndex();
     }
     return(
         <div className="w-6/12  bg-gray-100 m-auto  p-4 my-4 shadow-md">
            <div className="flex justify-between cursor-pointer" onClick={handleClick}>
-            <span>{resData?.resData?.cuisine} </span>
+            <span>{resData?.cuisine} </span>
             <span>🔽</span>
            </div>
-          {showAccordian && <Cuisine recipe={resData}/> }
+          {showItems && <Cuisine recipe={resData}/> }
         </div>
     )
 }

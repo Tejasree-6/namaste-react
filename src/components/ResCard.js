@@ -5,8 +5,7 @@ const ResCard=(props)=>{
      return (
        <div className='m-4 p-4 w-[200px] bg-gray-100 hover:bg-gray-200'>
          <img alt='Biryani logo' className='res-logo rounded-md' src={restaData?.image} onClick={()=>{
-                console.log("image onclick");
-               
+              
                 
          }} />
          <h3 className="font-bold py-2 text-lg">{restaData?.name}</h3>

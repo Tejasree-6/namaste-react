@@ -3,7 +3,7 @@ class UserClass extends React.Component{
     constructor(props){
        
         super(props);
-        console.log(this.props.name+"Child Constructor")
+       
         this.state={
             count:0,
             userInfo:{
@@ -16,9 +16,9 @@ class UserClass extends React.Component{
   
     async componentDidMount(){
        this.timer= setInterval(()=>{
-            console.log("set interval after every sec")
+          
         },1000);
-        console.log(this.props.name+"Child ComponentDidMount")
+      
         const data=await fetch("https://api.github.com/users/Tejasree-6");
         const json=await data.json();
        this.setState({
@@ -29,7 +29,7 @@ class UserClass extends React.Component{
         clearInterval(this.timer);
     }
     render(){
-        console.log(this.props.name+"Child render")
+        
         const {name,avatar_url}=this.state.userInfo;
         return(
             <div className="p-4 m-4">

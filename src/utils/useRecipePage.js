@@ -10,7 +10,7 @@ const useRecipePage=()=>{
     const fetchData=async()=>{
             let data=await fetch(RECIPES_URL);
             data=await data.json();
-            console.log(data)
+          
             setApiData(data?.recipes)
            }
    
