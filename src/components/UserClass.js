@@ -1,4 +1,5 @@
 import React from "react";
+
 class UserClass extends React.Component{
     constructor(props){
        
@@ -38,7 +39,7 @@ class UserClass extends React.Component{
             <h2 className="text-lg font-semibold">Name: {name}</h2>
             <h2 className="text-lg font-semibold">Location: New Jersey</h2>
             <h2 className="text-lg font-semibold">Email: tejasree6633@gmail.com</h2>
-            
+           
             </div>
         )
     }
